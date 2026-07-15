@@ -3,6 +3,8 @@ KAP Bildirim Scraper v2
 KAP HTML sayfasını parse ederek son bildirimleri çeker.
 """
 
+from __future__ import annotations
+
 import json
 import re
 import time
@@ -209,7 +211,7 @@ def _strip_html(html: str) -> str:
     return re.sub(r'\s+', ' ', text).strip()
 
 
-def parse_date(raw: str) -> datetime | None:
+def parse_date(raw: str):
     if not raw:
         return None
     try:
@@ -247,7 +249,7 @@ def format_items(raw: list[dict]) -> list[dict]:
         raw_date = (d.get("publishDate") or d.get("pubDate") or
                     d.get("releaseDate") or "")
         dt = parse_date(str(raw_date))
-        within72h = dt is not None and dt > cutoff
+        within72h = dt is not None and dt.replace(tzinfo=None) > cutoff.replace(tzinfo=None)
 
         title = (d.get("title") or d.get("subject") or
                  d.get("companyName") or "KAP Bildirimi")
@@ -317,11 +319,11 @@ def main():
     merged = new_items + existing
 
     # 72 saat dışındakileri temizle
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=HOURS_BACK)
+    cutoff_naive = (datetime.now(timezone.utc) - timedelta(hours=HOURS_BACK)).replace(tzinfo=None)
     merged = [
         i for i in merged
         if not parse_date(i.get("rawDate", ""))
-        or parse_date(i.get("rawDate", "")) > cutoff  # type: ignore
+        or parse_date(i.get("rawDate", "")).replace(tzinfo=None) > cutoff_naive
     ][:200]
 
     output = {
