@@ -8,7 +8,7 @@ otomatik olarak çekip `data/kap_news.json` dosyasına kaydeder.
 Flutter uygulaması şu URL'den JSON'u okur:
 
 ```
-https://raw.githubusercontent.com/KULLANICI_ADI/teknik-bakis-kap/main/data/kap_news.json
+https://raw.githubusercontent.com/Alikose010/teknik-bakis-kap/main/data/kap_news.json
 ```
 
 ## JSON Formatı
