@@ -157,76 +157,51 @@ def try_alternative_sources() -> list[dict]:
     """Alternatif haber kaynaklarından KAP haberleri çek."""
     results = []
 
-    # Önce finans.mynet.com KAP sayfasını dene — gerçek KAP bildirimleri
+    # Önce bigpara.hurriyet.com.tr KAP haberleri — gerçek KAP bildirimleri
     try:
         r = requests.get(
-            "https://finans.mynet.com/borsa/haberler/kap/",
+            "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/",
             headers={
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/125.0.0.0 Safari/537.36",
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Accept-Language": "tr-TR,tr;q=0.9",
-                "Referer": "https://finans.mynet.com/",
+                "Referer": "https://bigpara.hurriyet.com.tr/",
             },
             timeout=20,
         )
-        print(f"  finans.mynet.com KAP: {r.status_code}")
+        print(f"  bigpara KAP haberleri: {r.status_code}")
         if r.status_code == 200:
             text = r.text
-            # Haber başlıklarını çek
-            # Pattern: hisse kodu + başlık + tarih
+            # bigpara URL pattern: /haberler/kap-haberleri/BASLIK_IDXXXXX/
             pat = re.findall(
-                r'<a[^>]+href="([^"]+haberdetay[^"]+)"[^>]*>\s*([^<]{10,150})\s*</a>',
+                r'href="(https://bigpara\.hurriyet\.com\.tr/haberler/kap-haberleri/[^"]+)"[^>]*>\s*([^<]{10,200})',
                 text
             )
+            if not pat:
+                # Alternatif pattern
+                pat = re.findall(
+                    r'href="(/haberler/kap-haberleri/[^"]+)"[^>]*>\s*([^<]{10,200})',
+                    text
+                )
+                pat = [("https://bigpara.hurriyet.com.tr" + u, t) for u, t in pat]
             if pat:
-                print(f"  ✓ mynet KAP: {len(pat)} haber")
-                for url, title in pat[:50]:
+                print(f"  ✓ bigpara KAP haberleri: {len(pat)} haber")
+                seen_urls = set()
+                for url, title in pat:
                     title = title.strip()
-                    if len(title) > 10:
+                    if len(title) > 10 and url not in seen_urls:
+                        seen_urls.add(url)
                         results.append({
                             "title": title,
                             "subject": "",
                             "companyCode": _extract_ticker(title),
                             "publishDate": datetime.now(timezone.utc).isoformat(),
-                            "url": url if url.startswith("http") else f"https://finans.mynet.com{url}",
+                            "url": url,
                         })
-            if results:
-                return results
+                if results:
+                    return results
     except Exception as e:
-        print(f"  mynet hata: {e}")
-
-    # bigpara.hurriyet.com.tr KAP sayfası
-    try:
-        r = requests.get(
-            "https://bigpara.hurriyet.com.tr/haberler/kap-bildirimleri/",
-            headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/125.0.0.0",
-                "Accept": "text/html,application/xhtml+xml",
-                "Referer": "https://bigpara.hurriyet.com.tr/",
-            },
-            timeout=20,
-        )
-        print(f"  bigpara KAP: {r.status_code}")
-        if r.status_code == 200:
-            text = r.text
-            pat = re.findall(
-                r'<a[^>]+href="([^"]+)"[^>]*>\s*<[^>]+>\s*([A-Z]{2,6})\s*</[^>]+>\s*([^<]{10,150})',
-                text
-            )
-            if pat:
-                print(f"  ✓ bigpara KAP: {len(pat)} haber")
-                for url, ticker, title in pat[:50]:
-                    results.append({
-                        "title": f"{ticker} — {title.strip()}",
-                        "subject": "",
-                        "companyCode": ticker,
-                        "publishDate": datetime.now(timezone.utc).isoformat(),
-                        "url": url if url.startswith("http") else f"https://bigpara.hurriyet.com.tr{url}",
-                    })
-            if results:
-                return results
-    except Exception as e:
-        print(f"  bigpara hata: {e}")
+        print(f"  bigpara KAP hata: {e}")
 
     # Son çare: RSS kaynakları
     rss_sources = [
