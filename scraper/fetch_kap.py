@@ -1,11 +1,9 @@
 """
-KAP Bildirim Scraper
-Her çalışmada son 72 saatin tüm KAP özel durum bildirimlerini çeker
-ve data/kap_news.json dosyasına yazar.
+KAP Bildirim Scraper v2
+KAP HTML sayfasını parse ederek son bildirimleri çeker.
 """
 
 import json
-import os
 import re
 import time
 from datetime import datetime, timedelta, timezone
@@ -13,91 +11,226 @@ from pathlib import Path
 
 import requests
 
-# ── Sabitler ──────────────────────────────────────────────────
-BASE_URL = "https://www.kap.org.tr"
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/125.0.0.0 Safari/537.36"
-    ),
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
-    "Referer": "https://www.kap.org.tr/tr/Bildirim/Ozel",
-    "Origin": "https://www.kap.org.tr",
-    "sec-fetch-site": "same-origin",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-dest": "empty",
-}
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "kap_news.json"
+BASE_URL = "https://www.kap.org.tr"
 HOURS_BACK = 72
 
 
-def fetch_disclosures() -> list[dict]:
-    """KAP API'den son bildirimleri çeker."""
-    items = []
+def make_session() -> requests.Session:
+    s = requests.Session()
+    s.headers.update({
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/125.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+    })
+    return s
 
-    # Birden fazla endpoint dene
+
+def visit_homepage(s: requests.Session):
+    """Ana sayfayı ziyaret edip session cookie al."""
+    try:
+        r = s.get(f"{BASE_URL}/tr", headers={
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        }, timeout=20)
+        print(f"  Ana sayfa: {r.status_code}")
+        time.sleep(2)
+    except Exception as e:
+        print(f"  Ana sayfa hatası: {e}")
+
+
+def try_json_api(s: requests.Session) -> list[dict]:
+    """JSON API endpoint'lerini dene."""
     endpoints = [
         f"{BASE_URL}/tr/api/disclosures?orderBy=publishDate&orderDir=desc&pageSize=100&pageIndex=0",
-        f"{BASE_URL}/tr/api/disclosures?type=ozel&orderBy=publishDate&orderDir=desc&pageSize=100&pageIndex=0",
-        f"{BASE_URL}/tr/api/disclosures?orderBy=publishDate&orderDir=desc&pageSize=50&pageIndex=0",
+        f"{BASE_URL}/tr/api/disclosures?type=ozel&orderBy=publishDate&orderDir=desc&pageSize=50",
+        f"{BASE_URL}/en/api/disclosures?orderBy=publishDate&orderDir=desc&pageSize=50&pageIndex=0",
     ]
-
-    session = requests.Session()
-
-    # Önce ana sayfayı ziyaret et (session cookie al)
-    try:
-        session.get(f"{BASE_URL}/tr", headers={
-            "User-Agent": HEADERS["User-Agent"],
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        }, timeout=20)
-        time.sleep(1)
-    except Exception:
-        pass
-
     for url in endpoints:
         try:
-            r = session.get(url, headers=HEADERS, timeout=20)
-            print(f"  {url[-70:]} → {r.status_code}")
+            r = s.get(url, headers={
+                "Accept": "application/json, text/plain, */*",
+                "Referer": f"{BASE_URL}/tr/Bildirim/Ozel",
+                "X-Requested-With": "XMLHttpRequest",
+            }, timeout=20)
+            print(f"  API {r.status_code}: {url[-60:]}")
+            if r.status_code == 200 and r.text.strip().startswith('['):
+                data = r.json()
+                if isinstance(data, list) and data:
+                    print(f"  ✓ JSON API: {len(data)} kayıt")
+                    return data
+            elif r.status_code == 200:
+                try:
+                    data = r.json()
+                    for key in ["data", "items", "disclosures", "result"]:
+                        if key in data and isinstance(data[key], list) and data[key]:
+                            print(f"  ✓ JSON API ({key}): {len(data[key])} kayıt")
+                            return data[key]
+                except Exception:
+                    pass
+        except Exception as e:
+            print(f"  API hata: {e}")
+        time.sleep(1)
+    return []
 
+
+def try_html_scrape(s: requests.Session) -> list[dict]:
+    """KAP HTML sayfasını parse et."""
+    pages = [
+        f"{BASE_URL}/tr/Bildirim/Ozel",
+        f"{BASE_URL}/tr/bildirim/ozel",
+        f"{BASE_URL}/tr/Ozel-Durum-Aciklamalari",
+    ]
+    for page_url in pages:
+        try:
+            r = s.get(page_url, headers={
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Referer": f"{BASE_URL}/tr",
+            }, timeout=25)
+            print(f"  HTML {r.status_code}: {page_url}")
+            if r.status_code != 200:
+                continue
+
+            text = r.text
+            results = []
+
+            # JSON data blocklarını ara
+            # Pattern 1: disclosureIndex ile
+            pat1 = re.findall(
+                r'"disclosureIndex"\s*:\s*(\d+)[^}]*?"title"\s*:\s*"([^"]{5,150})"[^}]*?"stockCode"\s*:\s*"([^"]{2,10})"[^}]*?"publishDate"\s*:\s*"([^"]{10,30})"',
+                text
+            )
+            if pat1:
+                print(f"  HTML pattern1: {len(pat1)} kayıt")
+                for m in pat1[:100]:
+                    results.append({
+                        "id": m[0], "title": m[1],
+                        "companyCode": m[2], "publishDate": m[3],
+                        "subject": ""
+                    })
+                return results
+
+            # Pattern 2: title + stockCode + publishDate
+            pat2 = re.findall(
+                r'"title"\s*:\s*"([^"]{5,150})"[^}]{0,200}?"stockCode"\s*:\s*"([^"]{2,10})"[^}]{0,200}?"publishDate"\s*:\s*"([^"]{10,30})"',
+                text
+            )
+            if pat2:
+                print(f"  HTML pattern2: {len(pat2)} kayıt")
+                for m in pat2[:100]:
+                    results.append({
+                        "title": m[0], "companyCode": m[1],
+                        "publishDate": m[2], "subject": ""
+                    })
+                return results
+
+            # Pattern 3: Geniş arama
+            pat3 = re.findall(
+                r'"companyCode"\s*:\s*"([A-Z]{2,6})"[^}]{0,300}?"title"\s*:\s*"([^"]{5,150})"',
+                text
+            )
+            if pat3:
+                print(f"  HTML pattern3: {len(pat3)} kayıt")
+                now = datetime.now(timezone.utc).isoformat()
+                for m in pat3[:50]:
+                    results.append({
+                        "companyCode": m[0], "title": m[1],
+                        "publishDate": now, "subject": ""
+                    })
+                return results
+
+        except Exception as e:
+            print(f"  HTML hata: {e}")
+        time.sleep(1)
+    return []
+
+
+def try_alternative_sources() -> list[dict]:
+    """Alternatif haber kaynaklarından KAP haberleri çek."""
+    results = []
+
+    # Bloomberg HT KAP haberleri
+    sources = [
+        {
+            "url": "https://api.rss2json.com/v1/api.json?rss_url=https://www.bloomberght.com/rss/haber/borsa",
+            "name": "Bloomberg HT"
+        },
+        {
+            "url": "https://api.rss2json.com/v1/api.json?rss_url=https://www.haberturk.com/rss/ekonomi.xml",
+            "name": "Habertürk"
+        },
+        {
+            "url": "https://api.rss2json.com/v1/api.json?rss_url=https://ekonomim.com/rss/kap",
+            "name": "Ekonomim KAP"
+        },
+        {
+            "url": "https://api.rss2json.com/v1/api.json?rss_url=https://www.getmidas.com/feed/",
+            "name": "Midas"
+        },
+    ]
+
+    for src in sources:
+        try:
+            r = requests.get(src["url"], timeout=12)
             if r.status_code == 200:
                 data = r.json()
-                raw_list = (
-                    data if isinstance(data, list)
-                    else data.get("data", data.get("items", data.get("disclosures", [])))
-                )
-                if raw_list:
-                    items = raw_list
-                    print(f"  ✓ {len(items)} bildiri alındı")
-                    break
+                items = data.get("items", [])
+                if items:
+                    print(f"  ✓ {src['name']}: {len(items)} haber")
+                    for item in items[:30]:
+                        title = item.get("title", "")
+                        # KAP ile ilgili haberleri filtrele
+                        desc = item.get("description", "")
+                        pub_date = item.get("pubDate", "")
+                        results.append({
+                            "title": title,
+                            "subject": _strip_html(desc)[:200],
+                            "companyCode": "KAP",
+                            "publishDate": pub_date,
+                            "url": item.get("link", ""),
+                        })
+                    if results:
+                        break
         except Exception as e:
-            print(f"  ✗ {e}")
-        time.sleep(1)
+            print(f"  {src['name']} hata: {e}")
 
-    return items
+    return results
+
+
+def _strip_html(html: str) -> str:
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'&\w+;', ' ', text)
+    return re.sub(r'\s+', ' ', text).strip()
 
 
 def parse_date(raw: str) -> datetime | None:
-    """Çeşitli tarih formatlarını parse eder."""
     if not raw:
         return None
     try:
         return datetime.fromisoformat(raw.replace("Z", "+00:00"))
     except Exception:
         pass
-    # "10.07.2026 14:30" formatı
     try:
-        parts = raw.split(" ")
-        if len(parts) >= 2:
-            dp = parts[0].split(".")
-            if len(dp) == 3:
-                tp = parts[1].split(":")
-                return datetime(
-                    int(dp[2]), int(dp[1]), int(dp[0]),
-                    int(tp[0]), int(tp[1] if len(tp) > 1 else 0),
-                    tzinfo=timezone.utc
-                )
+        # RFC 2822: "Wed, 15 Jul 2026 10:30:00 +0300"
+        months = {
+            "Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
+            "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12,
+        }
+        parts = raw.replace(",", "").strip().split()
+        if len(parts) >= 5:
+            day = int(parts[1])
+            month = months.get(parts[2], 1)
+            year = int(parts[3])
+            tp = parts[4].split(":")
+            return datetime(year, month, day, int(tp[0]),
+                            int(tp[1]) if len(tp) > 1 else 0,
+                            tzinfo=timezone.utc)
     except Exception:
         pass
     return None
@@ -107,34 +240,23 @@ def fmt_date(dt: datetime) -> str:
     return dt.strftime("%d.%m.%Y %H:%M")
 
 
-def filter_and_format(raw_items: list[dict]) -> list[dict]:
-    """Son 72 saat içindeki bildirimleri filtreler ve formatlar."""
+def format_items(raw: list[dict]) -> list[dict]:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=HOURS_BACK)
     result = []
-
-    for d in raw_items:
-        raw_date = (
-            d.get("publishDate")
-            or d.get("releaseDate")
-            or d.get("disclosureDate")
-            or ""
-        )
+    for d in raw:
+        raw_date = (d.get("publishDate") or d.get("pubDate") or
+                    d.get("releaseDate") or "")
         dt = parse_date(str(raw_date))
-        within_72h = dt is not None and dt > cutoff
+        within72h = dt is not None and dt > cutoff
 
-        title = (
-            d.get("title")
-            or d.get("subject")
-            or d.get("companyName")
-            or "KAP Bildirimi"
-        )
+        title = (d.get("title") or d.get("subject") or
+                 d.get("companyName") or "KAP Bildirimi")
         subject = d.get("subject") or d.get("disclosureClass") or ""
-        source = d.get("companyCode") or d.get("stockCode") or "KAP"
+        source = (d.get("companyCode") or d.get("stockCode") or
+                  d.get("company") or "KAP")
         disc_id = d.get("id") or d.get("disclosureIndex") or ""
-        url = (
-            d.get("url")
-            or (f"{BASE_URL}/tr/Bildirim/{disc_id}" if disc_id else "")
-        )
+        url = d.get("url") or (
+            f"{BASE_URL}/tr/Bildirim/{disc_id}" if disc_id else "")
 
         result.append({
             "title": str(title),
@@ -142,76 +264,45 @@ def filter_and_format(raw_items: list[dict]) -> list[dict]:
             "source": str(source),
             "time": fmt_date(dt) if dt else fmt_date(datetime.now(timezone.utc)),
             "url": str(url),
-            "within72h": within_72h,
+            "within72h": within72h,
             "rawDate": str(raw_date),
         })
 
-    # Sadece 72h içindekileri al, yoksa hepsini
     filtered = [i for i in result if i["within72h"]]
     return filtered if filtered else result[:30]
 
 
-def fallback_scrape() -> list[dict]:
-    """KAP API çalışmazsa HTML sayfasını parse et."""
-    print("HTML scraping deneniyor...")
-    result = []
-    try:
-        r = requests.get(
-            f"{BASE_URL}/tr/Bildirim/Ozel",
-            headers={**HEADERS, "Accept": "text/html,application/xhtml+xml"},
-            timeout=20,
-        )
-        if r.status_code != 200:
-            return result
-
-        text = r.text
-        # JSON data içinde bildirim ara
-        # window.__data veya benzeri
-        patterns = [
-            r'"title":"([^"]{5,120})"[^}]*"companyCode":"([^"]{2,10})"[^}]*"publishDate":"([^"]{10,30})"',
-            r'"companyCode":"([^"]{2,10})"[^}]*"title":"([^"]{5,120})"',
-        ]
-        for pat in patterns:
-            matches = re.findall(pat, text)
-            if matches:
-                print(f"  HTML'den {len(matches)} eşleşme bulundu")
-                for m in matches[:50]:
-                    if len(m) == 3:
-                        result.append({
-                            "title": m[0], "summary": "",
-                            "source": m[1], "time": m[2][:16],
-                            "url": "", "within72h": True, "rawDate": m[2],
-                        })
-                    elif len(m) == 2:
-                        result.append({
-                            "title": m[1], "summary": "",
-                            "source": m[0], "time": fmt_date(datetime.now(timezone.utc)),
-                            "url": "", "within72h": True, "rawDate": "",
-                        })
-                break
-    except Exception as e:
-        print(f"  HTML scrape hatası: {e}")
-    return result
-
-
 def main():
-    print(f"KAP Scraper başlatıldı — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"\n{'='*50}")
+    print(f"KAP Scraper v2 — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"{'='*50}")
 
-    # Data klasörü oluştur
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    s = make_session()
 
-    # Bildirimleri çek
-    raw = fetch_disclosures()
+    # 1. Ana sayfayı ziyaret et
+    visit_homepage(s)
 
+    # 2. JSON API dene
+    print("\n[1] JSON API deneniyor...")
+    raw = try_json_api(s)
+
+    # 3. HTML scrape
     if not raw:
-        print("API başarısız, HTML scraping deneniyor...")
-        items = fallback_scrape()
-    else:
-        items = filter_and_format(raw)
+        print("\n[2] HTML scraping deneniyor...")
+        raw = try_html_scrape(s)
 
-    print(f"Toplam {len(items)} bildiri işlendi")
+    # 4. Alternatif kaynaklar
+    if not raw:
+        print("\n[3] Alternatif kaynaklar deneniyor...")
+        raw = try_alternative_sources()
 
-    # Mevcut dosya varsa oku, yenileri başa ekle
+    print(f"\nToplam {len(raw)} ham kayıt")
+
+    # Format ve filtrele
+    items = format_items(raw) if raw else []
+
+    # Mevcut dosya ile birleştir
     existing = []
     if OUTPUT_FILE.exists():
         try:
@@ -220,32 +311,30 @@ def main():
         except Exception:
             existing = []
 
-    # Yeni öğeleri başa ekle, tekrarları kaldır
-    existing_titles = {e["title"] + e["source"] for e in existing}
-    new_items = [i for i in items if i["title"] + i["source"] not in existing_titles]
+    # Yeni öğeleri başa ekle, tekrar olmayanları
+    seen = {e["title"] + e.get("source", "") for e in existing}
+    new_items = [i for i in items if i["title"] + i.get("source", "") not in seen]
     merged = new_items + existing
 
     # 72 saat dışındakileri temizle
     cutoff = datetime.now(timezone.utc) - timedelta(hours=HOURS_BACK)
-    merged_filtered = []
-    for item in merged:
-        dt = parse_date(item.get("rawDate", ""))
-        if dt is None or dt > cutoff:
-            merged_filtered.append(item)
-
-    # Maksimum 200 kayıt tut
-    merged_filtered = merged_filtered[:200]
+    merged = [
+        i for i in merged
+        if not parse_date(i.get("rawDate", ""))
+        or parse_date(i.get("rawDate", "")) > cutoff  # type: ignore
+    ][:200]
 
     output = {
         "lastUpdated": datetime.now(timezone.utc).isoformat(),
-        "count": len(merged_filtered),
-        "items": merged_filtered,
+        "count": len(merged),
+        "items": merged,
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"✓ {OUTPUT_FILE} dosyasına {len(merged_filtered)} bildiri yazıldı")
+    print(f"\n✓ {len(merged)} bildiri kaydedildi → {OUTPUT_FILE}")
+    print(f"  Yeni: {len(new_items)}, Mevcut: {len(existing)}")
 
 
 if __name__ == "__main__":
