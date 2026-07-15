@@ -1,0 +1,37 @@
+name: KAP Bildirim Toplayıcı
+
+on:
+  schedule:
+    # Her 10 dakikada bir çalışır (UTC)
+    - cron: '*/10 * * * *'
+  workflow_dispatch:  # Manuel tetikleme için
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Repo'yu klonla
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Bağımlılıkları yükle
+        run: pip install requests
+
+      - name: KAP bildirimlerini çek
+        run: python scraper/fetch_kap.py
+
+      - name: Değişiklikleri commit et ve push yap
+        run: |
+          git config --local user.email "kap-bot@teknikbakis.app"
+          git config --local user.name "KAP Bot"
+          git add data/kap_news.json
+          # Değişiklik yoksa commit atma
+          git diff --staged --quiet || git commit -m "chore: KAP bildirimleri güncellendi $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push
