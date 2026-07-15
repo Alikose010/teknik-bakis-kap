@@ -191,9 +191,11 @@ def try_alternative_sources() -> list[dict]:
                     title = title.strip()
                     if len(title) > 10 and url not in seen_urls:
                         seen_urls.add(url)
+                        # Başlıktan ***SEMBOL*** formatını temizle
+                        clean_title = re.sub(r'^\*+[A-Z0-9]+\*+\s*', '', title).strip()
                         results.append({
-                            "title": title,
-                            "subject": "",
+                            "title": clean_title if clean_title else title,
+                            "subject": _extract_type(title),
                             "companyCode": _extract_ticker(title),
                             "publishDate": datetime.now(timezone.utc).isoformat(),
                             "url": url,
@@ -234,9 +236,20 @@ def try_alternative_sources() -> list[dict]:
 
 
 def _extract_ticker(text: str) -> str:
-    """Metinden hisse kodu çıkar (örn. 'THYAO', 'AKBNK' gibi)."""
-    match = re.search(r'\b([A-Z]{3,6})\b', text)
-    return match.group(1) if match else "KAP"
+    """Metinden hisse kodu çıkar."""
+    # ***THYAO*** formatı
+    m = re.search(r'\*+([A-Z]{2,6})\*+', text)
+    if m:
+        return m.group(1)
+    # Büyük harf kelime
+    m = re.search(r'\b([A-Z]{3,6})\b', text)
+    return m.group(1) if m else "KAP"
+
+
+def _extract_type(text: str) -> str:
+    """Parantez içindeki bildirim türünü çıkar."""
+    m = re.search(r'\(([^)]{5,80})\)', text)
+    return m.group(1).strip() if m else ""
 
 
 def _strip_html(html: str) -> str:
