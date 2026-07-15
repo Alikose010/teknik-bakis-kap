@@ -36,3 +36,4 @@ https://raw.githubusercontent.com/KULLANICI_ADI/teknik-bakis-kap/main/data/kap_n
 1. Bu repoyu GitHub'a push et
 2. GitHub Actions otomatik olarak her 10 dakikada çalışır
 3. `data/kap_news.json` her seferinde güncellenir
+"# teknik-bakis-kap" 
