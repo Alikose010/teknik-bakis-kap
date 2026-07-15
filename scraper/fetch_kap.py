@@ -157,27 +157,84 @@ def try_alternative_sources() -> list[dict]:
     """Alternatif haber kaynaklarından KAP haberleri çek."""
     results = []
 
-    # Bloomberg HT KAP haberleri
-    sources = [
-        {
-            "url": "https://api.rss2json.com/v1/api.json?rss_url=https://www.bloomberght.com/rss/haber/borsa",
-            "name": "Bloomberg HT"
-        },
-        {
-            "url": "https://api.rss2json.com/v1/api.json?rss_url=https://www.haberturk.com/rss/ekonomi.xml",
-            "name": "Habertürk"
-        },
-        {
-            "url": "https://api.rss2json.com/v1/api.json?rss_url=https://ekonomim.com/rss/kap",
-            "name": "Ekonomim KAP"
-        },
-        {
-            "url": "https://api.rss2json.com/v1/api.json?rss_url=https://www.getmidas.com/feed/",
-            "name": "Midas"
-        },
-    ]
+    # Önce finans.mynet.com KAP sayfasını dene — gerçek KAP bildirimleri
+    try:
+        r = requests.get(
+            "https://finans.mynet.com/borsa/haberler/kap/",
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/125.0.0.0 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "tr-TR,tr;q=0.9",
+                "Referer": "https://finans.mynet.com/",
+            },
+            timeout=20,
+        )
+        print(f"  finans.mynet.com KAP: {r.status_code}")
+        if r.status_code == 200:
+            text = r.text
+            # Haber başlıklarını çek
+            # Pattern: hisse kodu + başlık + tarih
+            pat = re.findall(
+                r'<a[^>]+href="([^"]+haberdetay[^"]+)"[^>]*>\s*([^<]{10,150})\s*</a>',
+                text
+            )
+            if pat:
+                print(f"  ✓ mynet KAP: {len(pat)} haber")
+                for url, title in pat[:50]:
+                    title = title.strip()
+                    if len(title) > 10:
+                        results.append({
+                            "title": title,
+                            "subject": "",
+                            "companyCode": _extract_ticker(title),
+                            "publishDate": datetime.now(timezone.utc).isoformat(),
+                            "url": url if url.startswith("http") else f"https://finans.mynet.com{url}",
+                        })
+            if results:
+                return results
+    except Exception as e:
+        print(f"  mynet hata: {e}")
 
-    for src in sources:
+    # bigpara.hurriyet.com.tr KAP sayfası
+    try:
+        r = requests.get(
+            "https://bigpara.hurriyet.com.tr/haberler/kap-bildirimleri/",
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/125.0.0.0",
+                "Accept": "text/html,application/xhtml+xml",
+                "Referer": "https://bigpara.hurriyet.com.tr/",
+            },
+            timeout=20,
+        )
+        print(f"  bigpara KAP: {r.status_code}")
+        if r.status_code == 200:
+            text = r.text
+            pat = re.findall(
+                r'<a[^>]+href="([^"]+)"[^>]*>\s*<[^>]+>\s*([A-Z]{2,6})\s*</[^>]+>\s*([^<]{10,150})',
+                text
+            )
+            if pat:
+                print(f"  ✓ bigpara KAP: {len(pat)} haber")
+                for url, ticker, title in pat[:50]:
+                    results.append({
+                        "title": f"{ticker} — {title.strip()}",
+                        "subject": "",
+                        "companyCode": ticker,
+                        "publishDate": datetime.now(timezone.utc).isoformat(),
+                        "url": url if url.startswith("http") else f"https://bigpara.hurriyet.com.tr{url}",
+                    })
+            if results:
+                return results
+    except Exception as e:
+        print(f"  bigpara hata: {e}")
+
+    # Son çare: RSS kaynakları
+    rss_sources = [
+        {"url": "https://api.rss2json.com/v1/api.json?rss_url=https://www.haberturk.com/rss/ekonomi.xml", "name": "Habertürk"},
+        {"url": "https://api.rss2json.com/v1/api.json?rss_url=https://www.ntv.com.tr/ekonomi.rss", "name": "NTV Ekonomi"},
+        {"url": "https://api.rss2json.com/v1/api.json?rss_url=https://feeds.bbci.co.uk/turkce/ekonomi/rss.xml", "name": "BBC Türkçe"},
+    ]
+    for src in rss_sources:
         try:
             r = requests.get(src["url"], timeout=12)
             if r.status_code == 200:
@@ -185,16 +242,12 @@ def try_alternative_sources() -> list[dict]:
                 items = data.get("items", [])
                 if items:
                     print(f"  ✓ {src['name']}: {len(items)} haber")
-                    for item in items[:30]:
-                        title = item.get("title", "")
-                        # KAP ile ilgili haberleri filtrele
-                        desc = item.get("description", "")
-                        pub_date = item.get("pubDate", "")
+                    for item in items[:20]:
                         results.append({
-                            "title": title,
-                            "subject": _strip_html(desc)[:200],
-                            "companyCode": "KAP",
-                            "publishDate": pub_date,
+                            "title": item.get("title", ""),
+                            "subject": _strip_html(item.get("description", ""))[:200],
+                            "companyCode": _extract_ticker(item.get("title", "")),
+                            "publishDate": item.get("pubDate", ""),
                             "url": item.get("link", ""),
                         })
                     if results:
@@ -203,6 +256,12 @@ def try_alternative_sources() -> list[dict]:
             print(f"  {src['name']} hata: {e}")
 
     return results
+
+
+def _extract_ticker(text: str) -> str:
+    """Metinden hisse kodu çıkar (örn. 'THYAO', 'AKBNK' gibi)."""
+    match = re.search(r'\b([A-Z]{3,6})\b', text)
+    return match.group(1) if match else "KAP"
 
 
 def _strip_html(html: str) -> str:
