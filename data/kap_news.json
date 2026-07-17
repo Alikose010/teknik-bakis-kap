@@ -1,7 +1,169 @@
 {
-  "lastUpdated": "2026-07-16T23:12:59.005873+00:00",
-  "count": 108,
+  "lastUpdated": "2026-07-17T00:13:27.795716+00:00",
+  "count": 126,
   "items": [
+    {
+      "title": "YEŞİL YAPI ENDÜSTRİSİ A.Ş. (Genel Kurul İşlemlerine İlişkin Bildirim)",
+      "summary": "Genel Kurul İşlemlerine İlişkin Bildirim",
+      "source": "YYAPI",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/yyapi-yesil-yapi-endustrisi-a-s-genel-k_ID102211862/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793831+00:00"
+    },
+    {
+      "title": "YEŞİL YAPI ENDÜSTRİSİ A.Ş. (Kar Payı Dağıtım İşlemlerine İlişkin Bildirim)",
+      "summary": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+      "source": "YYAPI",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/yyapi-yesil-yapi-endustrisi-a-s-kar-pay_ID102211861/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793859+00:00"
+    },
+    {
+      "title": "YEŞİL YAPI ENDÜSTRİSİ A.Ş. (Bağımsız Denetim Kuruluşunun Belirlenmesi)",
+      "summary": "Bağımsız Denetim Kuruluşunun Belirlenmesi",
+      "source": "YYAPI",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/yyapi-yesil-yapi-endustrisi-a-s-bagimsi_ID102211860/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793867+00:00"
+    },
+    {
+      "title": "YEŞİL YAPI ENDÜSTRİSİ A.Ş. (İlişkili Taraf İşlemleri)",
+      "summary": "İlişkili Taraf İşlemleri",
+      "source": "YYAPI",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/yyapi-yesil-yapi-endustrisi-a-s-iliskil_ID102211859/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793874+00:00"
+    },
+    {
+      "title": "BALATACILAR BALATACILIK SANAYİ VE TİCARET A.Ş. (Payların Geri Alınmasına İlişkin Bildirim)",
+      "summary": "Payların Geri Alınmasına İlişkin Bildirim",
+      "source": "BALAT",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/balat-balatacilar-balatacilik-sanayi-ve-t_ID102211858/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793880+00:00"
+    },
+    {
+      "title": "*TGB*** TÜRKİYE GARANTİ BANKASI A.Ş. (Kredi Derecelendirmesi)",
+      "summary": "Kredi Derecelendirmesi",
+      "source": "GARAN",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/garan-tgb-turkiye-garanti-bankasi-a-s_ID102211857/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793886+00:00"
+    },
+    {
+      "title": "PEKER GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş. (Bağımsız Denetim Kuruluşunun Belirlenmesi)",
+      "summary": "Bağımsız Denetim Kuruluşunun Belirlenmesi",
+      "source": "PEKGY",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/pekgy-peker-gayrimenkul-yatirim-ortakligi_ID102211856/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793892+00:00"
+    },
+    {
+      "title": "YEŞİL YATIRIM HOLDİNG A.Ş. (Genel Kurul İşlemlerine İlişkin Bildirim)",
+      "summary": "Genel Kurul İşlemlerine İlişkin Bildirim",
+      "source": "YESIL",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/yesil-yesil-yatirim-holding-a-s-genel-k_ID102211855/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793904+00:00"
+    },
+    {
+      "title": "PEKER GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş. (Genel Kurul İşlemlerine İlişkin Bildirim)",
+      "summary": "Genel Kurul İşlemlerine İlişkin Bildirim",
+      "source": "PEKGY",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/pekgy-peker-gayrimenkul-yatirim-ortakligi_ID102211854/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793910+00:00"
+    },
+    {
+      "title": "YEŞİL YATIRIM HOLDİNG A.Ş. (Kar Payı Dağıtım İşlemlerine İlişkin Bildirim)",
+      "summary": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+      "source": "YESIL",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/yesil-yesil-yatirim-holding-a-s-kar-pay_ID102211853/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793915+00:00"
+    },
+    {
+      "title": "YEŞİL YATIRIM HOLDİNG A.Ş. (Bağımsız Denetim Kuruluşunun Belirlenmesi)",
+      "summary": "Bağımsız Denetim Kuruluşunun Belirlenmesi",
+      "source": "YESIL",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/yesil-yesil-yatirim-holding-a-s-bagimsi_ID102211852/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793919+00:00"
+    },
+    {
+      "title": "YEŞİL YATIRIM HOLDİNG A.Ş. (İlişkili Taraf İşlemleri)",
+      "summary": "İlişkili Taraf İşlemleri",
+      "source": "YESIL",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/yesil-yesil-yatirim-holding-a-s-iliskil_ID102211851/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793923+00:00"
+    },
+    {
+      "title": "METGÜN ENERJİ YATIRIMLARI A.Ş. (Genel Kurul Bildirimi)",
+      "summary": "Genel Kurul Bildirimi",
+      "source": "METEN",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/meten-metgun-enerji-yatirimlari-a-s-gen_ID102211850/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793928+00:00"
+    },
+    {
+      "title": "*VAKBN*** TÜRKİYE VAKIFLAR BANKASI T.A.O. (Finansal Duran Varlık Edinimi)",
+      "summary": "Finansal Duran Varlık Edinimi",
+      "source": "TVB",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/tvb-vakbn-turkiye-vakiflar-bankasi-t-a_ID102211849/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793932+00:00"
+    },
+    {
+      "title": "EMLAK KONUT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş. (Özel Durum Açıklaması (Genel))",
+      "summary": "Özel Durum Açıklaması (Genel",
+      "source": "EKGYO",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/ekgyo-emlak-konut-gayrimenkul-yatirim-ort_ID102211848/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793937+00:00"
+    },
+    {
+      "title": "IC ENTERRA YENİLENEBİLİR ENERJİ A.Ş. (Özel Durum Açıklaması (Genel))",
+      "summary": "Özel Durum Açıklaması (Genel",
+      "source": "ENTRA",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/entra-ic-enterra-yenilenebilir-enerji-a-s_ID102211847/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793941+00:00"
+    },
+    {
+      "title": "BAREM AMBALAJ SANAYİ VE TİCARET A.Ş. (Özel Durum Açıklaması (Genel))",
+      "summary": "Özel Durum Açıklaması (Genel",
+      "source": "BARMA",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/barma-barem-ambalaj-sanayi-ve-ticaret-a-s_ID102211846/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793945+00:00"
+    },
+    {
+      "title": "BOĞAZİÇİ BETON SANAYİ VE TİCARET A.Ş. (Kar Payı Dağıtım İşlemlerine İlişkin Bildirim)",
+      "summary": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+      "source": "BOBET",
+      "time": "17.07.2026 00:13",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/bobet-bogazici-beton-sanayi-ve-ticaret-a_ID102211845/",
+      "within72h": true,
+      "rawDate": "2026-07-17T00:13:27.793950+00:00"
+    },
     {
       "title": "KORAY GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş. (Özel Durum Açıklaması (Genel))",
       "summary": "Özel Durum Açıklaması (Genel",
