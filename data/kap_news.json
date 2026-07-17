@@ -1,7 +1,124 @@
 {
-  "lastUpdated": "2026-07-17T21:27:36.543343+00:00",
-  "count": 142,
+  "lastUpdated": "2026-07-17T22:12:05.976013+00:00",
+  "count": 155,
   "items": [
+    {
+      "title": "YAPI KREDİ PORTFÖY YÖNETİMİ A.Ş. (Kredi Kullanımı)",
+      "summary": "Kredi Kullanımı",
+      "source": "KCP",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/kcp-yapi-kredi-portfoy-yonetimi-a-s-kre_ID102212288/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974019+00:00"
+    },
+    {
+      "title": "BORSA İSTANBUL BISTECH DEVRE KESİCİ UYGULAMASI (Pay Bazında Devre Kesici Bildirimi)",
+      "summary": "Pay Bazında Devre Kesici Bildirimi",
+      "source": "PNLSN",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/pnlsn-borsa-istanbul-bistech-devre-kesici_ID102212287/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974025+00:00"
+    },
+    {
+      "title": "*THL*** TÜRKİYE HALK BANKASI A.Ş. (İhraç Belgesi)",
+      "summary": "İhraç Belgesi",
+      "source": "HALKB",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/halkb-thl-turkiye-halk-bankasi-a-s-ih_ID102212285/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974037+00:00"
+    },
+    {
+      "title": "*THL*** TÜRKİYE HALK BANKASI A.Ş. (İhraç Tavanına İlişkin Bildirim)",
+      "summary": "İhraç Tavanına İlişkin Bildirim",
+      "source": "HALKB",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/halkb-thl-turkiye-halk-bankasi-a-s-ih_ID102212284/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974048+00:00"
+    },
+    {
+      "title": "KAREL ELEKTRONİK SANAYİ VE TİCARET A.Ş. (Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren))",
+      "summary": "Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren",
+      "source": "KAREL",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/karel-karel-elektronik-sanayi-ve-ticaret_ID102212283/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974054+00:00"
+    },
+    {
+      "title": "İŞ PORTFÖY YÖNETİMİ A.Ş. (Borsa Dışı Repo - Ters Repo Sözleşmesi)",
+      "summary": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+      "source": "ISP",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/isp-is-portfoy-yonetimi-a-s-borsa-disi_ID102212280/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974059+00:00"
+    },
+    {
+      "title": "İŞ PORTFÖY YÖNETİMİ A.Ş. (Borsa Dışı Repo - Ters Repo Sözleşmesi)",
+      "summary": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+      "source": "ISP",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/isp-is-portfoy-yonetimi-a-s-borsa-disi_ID102212282/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974064+00:00"
+    },
+    {
+      "title": "İŞ PORTFÖY YÖNETİMİ A.Ş. (Borsa Dışı Repo - Ters Repo Sözleşmesi)",
+      "summary": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+      "source": "ISP",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/isp-is-portfoy-yonetimi-a-s-borsa-disi_ID102212281/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974068+00:00"
+    },
+    {
+      "title": "İSTANBUL PORTFÖY YÖNETİMİ A.Ş. (İzahname)",
+      "summary": "İzahname",
+      "source": "ISY",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/isy-istanbul-portfoy-yonetimi-a-s-izahn_ID102212276/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974073+00:00"
+    },
+    {
+      "title": "İSTANBUL PORTFÖY YÖNETİMİ A.Ş. (İzahname (Değişiklik) )",
+      "summary": "İzahname (Değişiklik",
+      "source": "ISY",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/isy-istanbul-portfoy-yonetimi-a-s-izahn_ID102212277/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974077+00:00"
+    },
+    {
+      "title": "İSTANBUL PORTFÖY YÖNETİMİ A.Ş. (İzahname (Değişiklik) )",
+      "summary": "İzahname (Değişiklik",
+      "source": "ISY",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/isy-istanbul-portfoy-yonetimi-a-s-izahn_ID102212279/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974082+00:00"
+    },
+    {
+      "title": "İSTANBUL PORTFÖY YÖNETİMİ A.Ş. (İzahname)",
+      "summary": "İzahname",
+      "source": "ISY",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/isy-istanbul-portfoy-yonetimi-a-s-izahn_ID102212278/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974086+00:00"
+    },
+    {
+      "title": "İSTANBUL TAKAS VE SAKLAMA BANKASI A.Ş. (Takasbank Para Piyasası Günlük Bülten)",
+      "summary": "Takasbank Para Piyasası Günlük Bülten",
+      "source": "TAKAS",
+      "time": "17.07.2026 22:12",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/istanbul-takas-ve-saklama-bankasi-a-s-takasba_ID102212275/",
+      "within72h": true,
+      "rawDate": "2026-07-17T22:12:05.974146+00:00"
+    },
     {
       "title": "MEDİAZZ YENİ MEDYA VE TEKNOLOJİ YATIRIMLARI A.Ş. (Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren))",
       "summary": "Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren",
