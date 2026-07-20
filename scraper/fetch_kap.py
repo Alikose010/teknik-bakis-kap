@@ -157,7 +157,50 @@ def try_alternative_sources() -> list[dict]:
     """Alternatif haber kaynaklarından KAP haberleri çek."""
     results = []
 
-    # Önce bigpara.hurriyet.com.tr KAP haberleri — gerçek KAP bildirimleri
+    # Midas KAP haberleri — zengin içerik, gerçek bildirimler
+    try:
+        r = requests.get(
+            "https://www.getmidas.com/kap-haberleri/",
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/125.0.0.0 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml",
+                "Accept-Language": "tr-TR,tr;q=0.9",
+                "Referer": "https://www.getmidas.com/",
+            },
+            timeout=20,
+        )
+        print(f"  Midas KAP: {r.status_code}")
+        if r.status_code == 200:
+            text = r.text
+            # Pattern: hisse kodu ve içerik bloğu
+            # Yapı: [TICKER X,XX%] paragraf metni
+            paragraphs = re.findall(
+                r'<p[^>]*>([\s\S]*?)</p>',
+                text,
+                re.DOTALL
+            )
+            items_found = []
+            for para in paragraphs:
+                clean = re.sub(r'<[^>]+>', ' ', para)
+                clean = re.sub(r'\s+', ' ', clean).strip()
+                if len(clean) > 30 and len(clean) < 500:
+                    # Hisse kodu bul
+                    ticker_match = re.search(r'\b([A-Z]{3,6})\b', clean)
+                    ticker = ticker_match.group(1) if ticker_match else 'KAP'
+                    items_found.append({
+                        "title": clean[:200],
+                        "subject": "",
+                        "companyCode": ticker,
+                        "publishDate": datetime.now(timezone.utc).isoformat(),
+                        "url": "https://www.getmidas.com/kap-haberleri/",
+                    })
+            if items_found:
+                print(f"  ✓ Midas KAP: {len(items_found)} haber")
+                return items_found[:50]
+    except Exception as e:
+        print(f"  Midas KAP hata: {e}")
+
+    # Bigpara KAP haberleri
     try:
         r = requests.get(
             "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/",
