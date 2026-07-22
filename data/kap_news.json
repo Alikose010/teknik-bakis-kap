@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-07-22T20:48:08.562860+00:00",
-  "count": 160,
+  "lastUpdated": "2026-07-22T21:54:45.898913+00:00",
+  "count": 159,
   "items": [
+    {
+      "title": "2 Saat Önce Balatacilar Balatacilik, 22 Temmuz'da 72,70 TL fiyattan 2.000 adet ve 70 TL fiyattan 2.704 adet payı geri aldı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "22.07.2026 21:54",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-07-22T21:54:45.895969+00:00"
+    },
     {
       "title": "1 Saat Önce Balatacilar Balatacilik, 22 Temmuz'da 72,70 TL fiyattan 2.000 adet ve 70 TL fiyattan 2.704 adet payı geri aldı.",
       "summary": "",
@@ -1423,24 +1432,6 @@
       "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/avod-a-v-o-d-kurutulmus-gida-ve-tarim-ur_ID102212915/",
       "within72h": true,
       "rawDate": "2026-07-20T21:11:41.550466+00:00"
-    },
-    {
-      "title": "TRABZONSPOR SPORTİF YATIRIM VE FUTBOL İŞLETMECİLİĞİ TİCARET A.Ş. (Sözleşme Feshi)",
-      "summary": "Sözleşme Feshi",
-      "source": "TSPOR",
-      "time": "19.07.2026 21:25",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/tspor-trabzonspor-sportif-yatirim-ve-futb_ID102212593/",
-      "within72h": true,
-      "rawDate": "2026-07-19T21:25:37.834564+00:00"
-    },
-    {
-      "title": "ÖZATA DENİZCİLİK SANAYİ VE TİCARET A.Ş. (Genel Kurul İşlemlerine İlişkin Bildirim)",
-      "summary": "Genel Kurul İşlemlerine İlişkin Bildirim",
-      "source": "OZATD",
-      "time": "19.07.2026 21:25",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/ozatd-ozata-denizcilik-sanayi-ve-ticaret_ID102212591/",
-      "within72h": true,
-      "rawDate": "2026-07-19T21:25:37.834600+00:00"
     }
   ]
 }
