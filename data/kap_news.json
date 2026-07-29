@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-07-29T21:08:43.201443+00:00",
+  "lastUpdated": "2026-07-29T22:10:01.594998+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "2 Saat Önce Arena Bilgisayar'ın ikinci çeyrek net satışları 5,59 milyar TL, net zararı ise 304,72 milyon TL oldu.",
+      "summary": "",
+      "source": "KAP",
+      "time": "29.07.2026 22:10",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-07-29T22:10:01.591656+00:00"
+    },
     {
       "title": "1 Saat Önce Arena Bilgisayar'ın ikinci çeyrek net satışları 5,59 milyar TL, net zararı ise 304,72 milyon TL oldu.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-07-27T16:14:36.323227+00:00"
-    },
-    {
-      "title": "Akbank'ın 23 milyon GBP nominal değerli tahvilinin 27 Temmuz 2026 tarihli kupon ödemesi tamamlandı.",
-      "summary": "",
-      "source": "GBP",
-      "time": "27.07.2026 16:14",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-27T16:14:36.323234+00:00"
     }
   ]
 }
