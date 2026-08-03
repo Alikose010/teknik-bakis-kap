@@ -1,7 +1,115 @@
 {
-  "lastUpdated": "2026-08-03T04:39:06.357584+00:00",
-  "count": 96,
+  "lastUpdated": "2026-08-03T08:01:39.712270+00:00",
+  "count": 97,
   "items": [
+    {
+      "title": "15 Dakika Önce Gen İlaç, 4 Ağustos'ta hisse başına net 0,01 TL tutarında ilk taksit temettü ödemesi yapacak. Ödemeler hesaplara 6 Ağustos'ta geçecek.",
+      "summary": "",
+      "source": "KAP",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.709930+00:00"
+    },
+    {
+      "title": "Abdulkadir Konukoğlu, 31 Temmuz'da 10,62 – 10,70 TL fiyat aralığından 150.000 TL nominal değerli ASGYO payı aldı. İşlem sonrası şirketin sermayesindeki payı %51,10 oldu.",
+      "summary": "",
+      "source": "ASGYO",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.709963+00:00"
+    },
+    {
+      "title": "Aksa Enerji, Gana Takoradi'de 825 MW kurulu gücünde kombine çevrim doğalgaz santrali kuracak. Electricity Company of Ghana ile 20 yıl süreli dolar bazlı enerji satış anlaşması imzalandı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.709980+00:00"
+    },
+    {
+      "title": "Zeray GYO, Temmuz 2026'da 53 adet konut satışı gerçekleştirdi. Toplam satış alanı 7.865,97 metrekare, satış tutarı ise KDV dahil 554,43 milyon TL oldu.",
+      "summary": "",
+      "source": "GYO",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.709992+00:00"
+    },
+    {
+      "title": "BSOKE, Bornova çimento fabrikasını 1 Ağustos 2026'dan itibaren bağlı ortaklığı BTCIM'e devretti. 31 Temmuz'da imzalanan 3 yıllık sözleşmeyle üretim kesintisiz sürecek.",
+      "summary": "",
+      "source": "BSOKE",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.710002+00:00"
+    },
+    {
+      "title": "ARD Grup Bilişim, eğitim kurumlarının güvenliğinin sağlanması amacıyla kullanılacak güvenlik ürünlerinin tedarikine ilişkin bir kamu kurumu ile KDV hariç 163,5 milyon TL bedelli sözleşme imzaladı.",
+      "summary": "",
+      "source": "ARD",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.710014+00:00"
+    },
+    {
+      "title": "ZKB Varlık Kiralama, Pınar Süt'ün fon kullanıcısı olduğu 82,17 milyon TL nominal değerli, 116 gün vadeli kira sertifikası ihracını tamamladı. Sertifikanın yıllık sabit getiri oranı %47,75 olarak belir",
+      "summary": "",
+      "source": "ZKB",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.710033+00:00"
+    },
+    {
+      "title": "Blume Metal Kimya Yönetim Kurulu Başkanı Erdal Bulut, 31 Temmuz 2026'da 33,50-33,64 TL fiyat aralığından 100.000 lot hisse aldı. İşlem sonrası şirketteki payı %24,32'ye ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.710048+00:00"
+    },
+    {
+      "title": "IC İçtaş İnşaat, 31 Temmuz 2026'da ortalama 5,07 TL fiyattan 1,01 milyon TL nominal değerli IC Enterra Yenilenebilir Enerji payı aldı. İşlem sonrası şirketin IC Enterra'daki payı %2,56'ya yükseldi.",
+      "summary": "",
+      "source": "KAP",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.710064+00:00"
+    },
+    {
+      "title": "Asil Holding, Pak Holding ve Pak Gıda Üretim ve Pazarlama'nın Kartonsan'daki toplam %77,21 oranındaki payları 31 Temmuz 2026'da Hasan Peker ve Aydın Veli Serin'e satıldı. İşlem sonrası üç şirketin de ",
+      "summary": "",
+      "source": "KAP",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.710081+00:00"
+    },
+    {
+      "title": "Lokman Hekim Üniversitesi ile Lokman Hekim Akay Hastanesi arasındaki afiliasyon sözleşmesi kapsamında SGK ile \"Vakıf Üniversitesi ile Afiliye Hastane Sağlık Hizmetleri Protokolü\" imzalandı.",
+      "summary": "",
+      "source": "SGK",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.710094+00:00"
+    },
+    {
+      "title": "Metgün Enerji'nin halka arz eden pay sahibi Metin Güneş, 31 Temmuz 2026'da 20 TL birim fiyattan 2.250.000 adet METEN payı satın aldı. İşlem, günlük alım emri taahhüdü kapsamında gerçekleştirildi.",
+      "summary": "",
+      "source": "METEN",
+      "time": "03.08.2026 08:01",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-03T08:01:39.710107+00:00"
+    },
     {
       "title": "2 Gün Önce Metgün Enerji'nin halka arz eden pay sahibi Metin Güneş, 31 Temmuz 2026'da 20 TL birim fiyattan 2.250.000 adet METEN payı satın aldı. İşlem, günlük alım emri taahhüdü kapsamında gerçekleşti",
       "summary": "",
@@ -766,105 +874,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-07-31T10:10:20.044390+00:00"
-    },
-    {
-      "title": "1 Saat Önce Barem Ambalaj'ın kredi derecelendirmesi JCR Avrasya tarafından yapıldı.",
-      "summary": "",
-      "source": "JCR",
-      "time": "31.07.2026 07:35",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-31T07:35:53.922288+00:00"
-    },
-    {
-      "title": "Blume Metal Kimya, payları üzerinde manipülatif işlem yapan ve sosyal medyada yanıltıcı bilgi yayan şahıslar hakkında SPK'ya ihbarda bulundu ve suç duyurusunda bulundu.",
-      "summary": "",
-      "source": "SPK",
-      "time": "31.07.2026 07:35",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-31T07:35:53.922327+00:00"
-    },
-    {
-      "title": "Pardus Portföy Yönetimi'nin kurucusu olduğu yatırım fonları, 30 Temmuz 2026'da MAGEN hisselerinden 1,34 milyon adet alım ve 4,55 milyon adet satım gerçekleştirdi. İşlem sonrası fonların MAGEN'deki pay",
-      "summary": "",
-      "source": "MAGEN",
-      "time": "31.07.2026 07:35",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-31T07:35:53.922348+00:00"
-    },
-    {
-      "title": "IC İçtaş İnşaat, 29 Temmuz'da ortalama 5,14 TL fiyattan 13,93 milyon TL nominal değerli IC Enterra Yenilenebilir Enerji payı aldı. İşlem sonrası şirketin IC Enterra'daki payı %2,53'e yükseldi.",
-      "summary": "",
-      "source": "KAP",
-      "time": "31.07.2026 07:35",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-31T07:35:53.922365+00:00"
-    },
-    {
-      "title": "ASGYO yönetim kurulu üyesi Abdulkadir Konukoğlu'nun pay alım satım işlemine ilişkin bildirim yapıldı.",
-      "summary": "",
-      "source": "ASGYO",
-      "time": "31.07.2026 07:35",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-31T07:35:53.922374+00:00"
-    },
-    {
-      "title": "Ulusal Faktoring, azami pay miktarı 55 milyon TL, azami fon tutarı 100 milyon TL olan pay geri alım programı başlattı. Pay geri alım programının süresi 3 yıl olarak belirlendi.",
-      "summary": "",
-      "source": "KAP",
-      "time": "31.07.2026 07:35",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-31T07:35:53.922389+00:00"
-    },
-    {
-      "title": "Desa Deri, 31 Temmuz 2026'da İzmir Selçuk'ta 229 metrekare büyüklüğünde yeni bir şube açacak.",
-      "summary": "",
-      "source": "KAP",
-      "time": "31.07.2026 07:35",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-31T07:35:53.922406+00:00"
-    },
-    {
-      "title": "YKBNK'nın 30 Haziran 2026 itibarıyla konsolide olmayan ara dönem finansal tabloları Güney Bağımsız Denetim tarafından sınırlı denetime tabi tutuldu ve BDDK Mevzuatı'na uygun bulundu.",
-      "summary": "",
-      "source": "YKBNK",
-      "time": "31.07.2026 07:35",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-31T07:35:53.922419+00:00"
-    },
-    {
-      "title": "Yapı Kredi Bankası'nın 30 Haziran 2026 itibarıyla konsolide net kârı 31,01 milyar TL olarak gerçekleşti. Bankanın net faiz geliri 117,36 milyar TL, net ücret ve komisyon gelirleri ise 65,76 milyar TL ",
-      "summary": "",
-      "source": "KAP",
-      "time": "31.07.2026 07:35",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-31T07:35:53.922440+00:00"
-    },
-    {
-      "title": "Aksigorta, 2026 yılının ikinci çeyreğinde 833 milyon TL net teknik kâr ve 750 milyon TL net kâr açıkladı. Şirketin brüt yazılan primleri %58 artışla 10,4 milyar TL'ye ulaştı.",
-      "summary": "",
-      "source": "KAP",
-      "time": "31.07.2026 07:35",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-31T07:35:53.922456+00:00"
-    },
-    {
-      "title": "7 Saat Önce Aksigorta, 2026 yılının ikinci çeyreğinde 833 milyon TL net teknik kâr ve 750 milyon TL net kâr açıkladı. Şirketin brüt yazılan primleri %58 artışla 10,4 milyar TL'ye ulaştı.",
-      "summary": "",
-      "source": "KAP",
-      "time": "31.07.2026 04:42",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-07-31T04:42:01.941375+00:00"
     }
   ]
 }
