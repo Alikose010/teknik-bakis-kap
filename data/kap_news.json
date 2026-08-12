@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-08-12T12:00:11.439161+00:00",
+  "lastUpdated": "2026-08-12T13:05:45.498000+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "16 Dakika Önce Enerjisa Enerji'nin 1 milyar TL nominal değerli tahvilinin 5. kupon ödemesi, dönemsel %10,8402 faiz oranıyla 108,4 milyon TL olarak 12 Ağustos'ta tamamlandı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "12.08.2026 13:05",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-12T13:05:45.494621+00:00"
+    },
+    {
+      "title": "Merrill Lynch International, 11 Ağustos 2026'da ALVES hisselerinde 35,87 milyon TL alış, 45 milyon TL satış yaptı. İşlem sonrası pay oranı %4,59'a geriledi.",
+      "summary": "",
+      "source": "ALVES",
+      "time": "12.08.2026 13:05",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-12T13:05:45.494658+00:00"
+    },
+    {
+      "title": "BETAE'nin 10 Ağustos tarihli özel durum açıklamasına güncelleme yapıldı. Üretim ve teslimat devam ediyor; itiraz süreci sonuçlanana kadar akredite sertifika gerektiren hizmetler yetkili bağımsız kurul",
+      "summary": "",
+      "source": "BETAE",
+      "time": "12.08.2026 13:05",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-12T13:05:45.494676+00:00"
+    },
     {
       "title": "41 Dakika Önce BETAE'nin 10 Ağustos tarihli özel durum açıklamasına güncelleme yapıldı. Üretim ve teslimat devam ediyor; itiraz süreci sonuçlanana kadar akredite sertifika gerektiren hizmetler yetkili",
       "summary": "",
@@ -1774,33 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-10T15:28:33.875372+00:00"
-    },
-    {
-      "title": "11 Dakika Önce Akmerkez GYO, 11 Ağustos'tan itibaren hisse başına brüt 3,70 TL kar payı avansı ödeyecek. Visne Madencilik'in %55 oranında bedelsiz sermaye artırımı aynı tarihte gerçekleşecek.",
-      "summary": "",
-      "source": "GYO",
-      "time": "10.08.2026 14:24",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-10T14:24:00.403780+00:00"
-    },
-    {
-      "title": "Kartonsan, yatırımcılarla varılan mutabakat kapsamında TRSKRTN73010 ISIN kodlu 215 milyon TL nominal değerli tahvilin 17 Ağustos 2026'da erken itfa edileceğini açıkladı. Erken itfa kapsamında yatırımc",
-      "summary": "",
-      "source": "ISIN",
-      "time": "10.08.2026 14:24",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-10T14:24:00.403819+00:00"
-    },
-    {
-      "title": "QNB Bank, MTN programı kapsamında İngiltere'de 10 milyon dolar nominal değerli, 738 gün vadeli özel sektör tahvili ihraç etti. Tahvilin vade tarihi 18 Ağustos 2028 olarak belirlendi.",
-      "summary": "",
-      "source": "QNB",
-      "time": "10.08.2026 14:24",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-10T14:24:00.403834+00:00"
     }
   ]
 }
