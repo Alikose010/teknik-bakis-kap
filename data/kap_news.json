@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-12T03:16:42.363751+00:00",
+  "lastUpdated": "2026-08-12T05:04:10.540801+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "8 Saat Önce Armada Gıda'nın ilk yarıda net satışları 8,20 milyar TL, net kârı ise 2,05 milyar TL oldu.",
+      "summary": "",
+      "source": "KAP",
+      "time": "12.08.2026 05:04",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-12T05:04:10.537942+00:00"
+    },
     {
       "title": "6 Saat Önce Armada Gıda'nın ilk yarıda net satışları 8,20 milyar TL, net kârı ise 2,05 milyar TL oldu.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-10T05:52:15.859585+00:00"
-    },
-    {
-      "title": "Türkiye Sigorta'nın 2026 yılı ilk yedi aylık brüt prim üretimi bir önceki yılın aynı dönemine göre %30 artışla 107,11 milyar TL'ye ulaştı.",
-      "summary": "",
-      "source": "KAP",
-      "time": "10.08.2026 05:52",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-10T05:52:15.859602+00:00"
     }
   ]
 }
