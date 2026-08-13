@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-08-13T20:07:45.959708+00:00",
+  "lastUpdated": "2026-08-13T20:57:24.874181+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "23 Dakika Önce Zorlu Enerji'nin ilk yarıda net satışları 13 milyar TL, net zararı ise 6,02 milyar TL oldu.",
+      "summary": "",
+      "source": "KAP",
+      "time": "13.08.2026 20:57",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-13T20:57:24.870737+00:00"
+    },
+    {
+      "title": "Merit Turizm, 27 Ekim'de hisse başına net 0,85 TL temettü ödemesi yapacak. Ödemeler hesaplara 2 Kasım'da geçecek.",
+      "summary": "",
+      "source": "KAP",
+      "time": "13.08.2026 20:57",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-13T20:57:24.870775+00:00"
+    },
     {
       "title": "13 Dakika Önce Merit Turizm, 27 Ekim'de hisse başına net 0,85 TL temettü ödemesi yapacak. Ödemeler hesaplara 2 Kasım'da geçecek.",
       "summary": "",
@@ -1783,24 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-12T05:04:10.537942+00:00"
-    },
-    {
-      "title": "6 Saat Önce Armada Gıda'nın ilk yarıda net satışları 8,20 milyar TL, net kârı ise 2,05 milyar TL oldu.",
-      "summary": "",
-      "source": "KAP",
-      "time": "12.08.2026 03:16",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-12T03:16:42.360603+00:00"
-    },
-    {
-      "title": "3 Saat Önce Armada Gıda'nın ilk yarıda net satışları 8,20 milyar TL, net kârı ise 2,05 milyar TL oldu.",
-      "summary": "",
-      "source": "KAP",
-      "time": "12.08.2026 00:52",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-12T00:52:03.143344+00:00"
     }
   ]
 }
