@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-12T23:54:07.606228+00:00",
+  "lastUpdated": "2026-08-13T00:53:39.692232+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "3 Saat Önce Balatacilar Balatacilik, 12 Ağustos'ta 70 TL fiyattan 2.006 adet payı geri aldı. Şirketin sahip olduğu toplam pay sayısı 84.985 adete ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "13.08.2026 00:53",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-13T00:53:39.688994+00:00"
+    },
     {
       "title": "2 Saat Önce Balatacilar Balatacilik, 12 Ağustos'ta 70 TL fiyattan 2.006 adet payı geri aldı. Şirketin sahip olduğu toplam pay sayısı 84.985 adete ulaştı.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-10T21:08:26.542695+00:00"
-    },
-    {
-      "title": "Beyaz Filo Oto Kiralama'nın ilk yarıda net satışları 10,50 milyar TL oldu. Şirket 177,32 milyon TL net zarar açıkladı.",
-      "summary": "",
-      "source": "KAP",
-      "time": "10.08.2026 21:08",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-10T21:08:26.542710+00:00"
     }
   ]
 }
