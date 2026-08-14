@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-08-14T20:19:55.724259+00:00",
+  "lastUpdated": "2026-08-14T20:49:27.008335+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "28 Dakika Önce Europap Tezol, 13 Ağustos'ta ortalama 9,71 TL fiyattan 20.000 adet payı geri aldı. İşlem sonrası geri alınan payların nominal değeri 2,71 milyon TL'ye, sermayedeki oranı %0,54'e ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "14.08.2026 20:49",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-14T20:49:27.005626+00:00"
+    },
+    {
+      "title": "Yünsa'nın ikinci çeyrek konsolide net satışları 1,87 milyar TL, net kârı ise 177,36 milyon TL olarak gerçekleşti.",
+      "summary": "",
+      "source": "KAP",
+      "time": "14.08.2026 20:49",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-14T20:49:27.005662+00:00"
+    },
     {
       "title": "59 Dakika Önce Yünsa'nın ikinci çeyrek konsolide net satışları 1,87 milyar TL, net kârı ise 177,36 milyon TL olarak gerçekleşti.",
       "summary": "",
@@ -1783,24 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-13T14:40:41.264477+00:00"
-    },
-    {
-      "title": "Enerjisa Enerji'nin 1,5 milyar TL nominal değerli tahvilinin 7. kupon ödemesi, dönemsel %10,7153 faiz oranıyla 160,72 milyon TL olarak 13 Ağustos'ta tamamlandı.",
-      "summary": "",
-      "source": "KAP",
-      "time": "13.08.2026 14:40",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-13T14:40:41.264489+00:00"
-    },
-    {
-      "title": "KT Sukuk Varlık Kiralama tarafından ihraç edilen kira sertifikasının 13 Ağustos 2026'da itfası gerçekleştirildi. 144,5 milyon TL nominal değerli sertifika için yatırımcılara toplam 169,14 milyon TL öd",
-      "summary": "",
-      "source": "KAP",
-      "time": "13.08.2026 14:40",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-13T14:40:41.264505+00:00"
     }
   ]
 }
