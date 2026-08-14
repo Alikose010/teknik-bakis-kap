@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-14T20:49:27.008335+00:00",
+  "lastUpdated": "2026-08-14T21:06:24.106621+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "45 Dakika Önce Europap Tezol, 13 Ağustos'ta ortalama 9,71 TL fiyattan 20.000 adet payı geri aldı. İşlem sonrası geri alınan payların nominal değeri 2,71 milyon TL'ye, sermayedeki oranı %0,54'e ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "14.08.2026 21:06",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-14T21:06:24.104092+00:00"
+    },
     {
       "title": "28 Dakika Önce Europap Tezol, 13 Ağustos'ta ortalama 9,71 TL fiyattan 20.000 adet payı geri aldı. İşlem sonrası geri alınan payların nominal değeri 2,71 milyon TL'ye, sermayedeki oranı %0,54'e ulaştı.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-13T14:40:41.264464+00:00"
-    },
-    {
-      "title": "Enerjisa Enerji'nin 670 milyon TL nominal değerli tahvilinin 7. kupon ödemesi, dönemsel %10,7153 faiz oranıyla 71,79 milyon TL olarak 13 Ağustos'ta gerçekleştirildi.",
-      "summary": "",
-      "source": "KAP",
-      "time": "13.08.2026 14:40",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-13T14:40:41.264477+00:00"
     }
   ]
 }
