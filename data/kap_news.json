@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-16T21:31:35.252290+00:00",
-  "count": 170,
+  "lastUpdated": "2026-08-16T21:50:32.913346+00:00",
+  "count": 169,
   "items": [
+    {
+      "title": "2 Gün Önce BIGTK, %180 bedelli sermaye artırımı için SPK'ya başvurdu. Sermaye 33,81 milyon TL'den 94,67 milyon TL'ye yükselecek. Fonun %50'si borç ödemesinde, %50'si işletme sermayesinde kullanılacak.",
+      "summary": "",
+      "source": "BIGTK",
+      "time": "16.08.2026 21:50",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-16T21:50:32.910349+00:00"
+    },
     {
       "title": "1 Gün Önce BIGTK, %180 bedelli sermaye artırımı için SPK'ya başvurdu. Sermaye 33,81 milyon TL'den 94,67 milyon TL'ye yükselecek. Fonun %50'si borç ödemesinde, %50'si işletme sermayesinde kullanılacak.",
       "summary": "",
@@ -1513,24 +1522,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-13T22:22:12.879337+00:00"
-    },
-    {
-      "title": "21 Dakika Önce Koton Mağazacılık Tekstil'in 30 Haziran 2026'da sona eren ilk altı aylık dönemde net satışları 17,92 milyar TL, net zararı ise 313,23 milyon TL oldu.",
-      "summary": "",
-      "source": "KAP",
-      "time": "13.08.2026 21:36",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-13T21:36:14.066510+00:00"
-    },
-    {
-      "title": "Zorlu Enerji'nin ilk yarıda net satışları 13 milyar TL, net zararı ise 6,02 milyar TL oldu.",
-      "summary": "",
-      "source": "KAP",
-      "time": "13.08.2026 21:36",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-13T21:36:14.066535+00:00"
     }
   ]
 }
