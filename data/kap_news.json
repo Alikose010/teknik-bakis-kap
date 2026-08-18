@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-18T21:43:59.625343+00:00",
+  "lastUpdated": "2026-08-18T21:58:56.601254+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "1 Saat Önce Balatacilar Balatacilik, 18 Ağustos'ta 70,50 TL fiyattan 220 adet payı geri aldı. Şirketin elindeki toplam pay sayısı 85.205 adete ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "18.08.2026 21:58",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-18T21:58:56.596222+00:00"
+    },
     {
       "title": "51 Dakika Önce Balatacilar Balatacilik, 18 Ağustos'ta 70,50 TL fiyattan 220 adet payı geri aldı. Şirketin elindeki toplam pay sayısı 85.205 adete ulaştı.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-17T16:13:14.597219+00:00"
-    },
-    {
-      "title": "Yeo Teknoloji'nin ilk altı aylık konsolide net satışları 8,31 milyar TL, net kârı ise 669,68 milyon TL oldu.",
-      "summary": "",
-      "source": "KAP",
-      "time": "17.08.2026 16:13",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-17T16:13:14.597253+00:00"
     }
   ]
 }
