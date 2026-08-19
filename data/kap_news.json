@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-19T07:49:41.422133+00:00",
+  "lastUpdated": "2026-08-19T08:19:09.796549+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "1 Saat Önce QNB Bank, MTN programı kapsamında İngiltere'de 20 milyon avro nominal değerli, 751 gün vadeli özel sektör tahvili ihraç etti. Tahvilin vadesi 8 Eylül 2028'de dolacak.",
+      "summary": "",
+      "source": "QNB",
+      "time": "19.08.2026 08:19",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-19T08:19:09.790600+00:00"
+    },
     {
       "title": "45 Dakika Önce QNB Bank, MTN programı kapsamında İngiltere'de 20 milyon avro nominal değerli, 751 gün vadeli özel sektör tahvili ihraç etti. Tahvilin vadesi 8 Eylül 2028'de dolacak.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-17T17:37:01.933500+00:00"
-    },
-    {
-      "title": "Türk Tuborg'un 30 Haziran 2026'da sona eren altı aylık dönemde net satışları 23,11 milyar TL, net kârı ise 2,09 milyar TL oldu.",
-      "summary": "",
-      "source": "KAP",
-      "time": "17.08.2026 17:37",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-17T17:37:01.933512+00:00"
     }
   ]
 }
