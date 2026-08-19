@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-19T11:54:59.893738+00:00",
+  "lastUpdated": "2026-08-19T12:19:16.924613+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "35 Dakika Önce Borlease Otomotiv'in 200 milyon TL nominal değerli tahvilinin 5. kupon ve anapara ödemesi, mevcut finansal koşullar nedeniyle 19 Ağustos 2026 vadesinde gerçekleştirilemedi.",
+      "summary": "",
+      "source": "KAP",
+      "time": "19.08.2026 12:19",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-19T12:19:16.919261+00:00"
+    },
     {
       "title": "11 Dakika Önce Borlease Otomotiv'in 200 milyon TL nominal değerli tahvilinin 5. kupon ve anapara ödemesi, mevcut finansal koşullar nedeniyle 19 Ağustos 2026 vadesinde gerçekleştirilemedi.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-17T17:59:02.861098+00:00"
-    },
-    {
-      "title": "Masfen Enerji'nin ilk yarıda net satışları 2,53 milyar TL, net kârı ise 1,05 milyar TL oldu.",
-      "summary": "",
-      "source": "KAP",
-      "time": "17.08.2026 17:59",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-17T17:59:02.861141+00:00"
     }
   ]
 }
