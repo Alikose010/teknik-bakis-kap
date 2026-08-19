@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-08-19T08:19:09.796549+00:00",
+  "lastUpdated": "2026-08-19T08:56:20.147024+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "42 Dakika Önce Yapı Kredi Bankası'nın yurtdışında ihraç ettiği 30 milyon euro tutarındaki borçlanma aracının itfası 19 Ağustos 2026'da gerçekleştirildi.",
+      "summary": "",
+      "source": "KAP",
+      "time": "19.08.2026 08:56",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-19T08:56:20.141624+00:00"
+    },
+    {
+      "title": "QNB Bank, MTN programı kapsamında İngiltere'de 20 milyon avro nominal değerli, 751 gün vadeli özel sektör tahvili ihraç etti. Tahvilin vadesi 8 Eylül 2028'de dolacak.",
+      "summary": "",
+      "source": "QNB",
+      "time": "19.08.2026 08:56",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-19T08:56:20.141663+00:00"
+    },
     {
       "title": "1 Saat Önce QNB Bank, MTN programı kapsamında İngiltere'de 20 milyon avro nominal değerli, 751 gün vadeli özel sektör tahvili ihraç etti. Tahvilin vadesi 8 Eylül 2028'de dolacak.",
       "summary": "",
@@ -1783,24 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-17T17:37:01.933476+00:00"
-    },
-    {
-      "title": "Girişim Elektrik'in ilk yarıda net satışları 9,06 milyar TL, net kârı ise 1,05 milyar TL oldu.",
-      "summary": "",
-      "source": "KAP",
-      "time": "17.08.2026 17:37",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-17T17:37:01.933487+00:00"
-    },
-    {
-      "title": "Lydia Holding'in 30 Haziran 2026'da sona eren altı aylık dönemde net zararı 372,72 milyon TL, hasılatı ise 31,35 milyon TL olarak gerçekleşti.",
-      "summary": "",
-      "source": "KAP",
-      "time": "17.08.2026 17:37",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-17T17:37:01.933500+00:00"
     }
   ]
 }
