@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-08-20T11:04:42.906704+00:00",
+  "lastUpdated": "2026-08-20T11:36:49.447100+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "36 Dakika Önce DCT Trading Dış Ticaret Yönetim Kurulu Başkanı Levent Sadık Amet, 20 Ağustos 2026'da 7,23-7,25 TL fiyat aralığından 100.000 TL nominal tutarlı pay aldı. İşlem sonrası şirketteki payı %7",
+      "summary": "",
+      "source": "DCT",
+      "time": "20.08.2026 11:36",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-20T11:36:49.441836+00:00"
+    },
+    {
+      "title": "Yapı Kredi Bankası'nın yurtdışında ihraç ettiği 50 milyon dolarlık borçlanma aracının itfası 20 Ağustos 2026'da gerçekleştirildi.",
+      "summary": "",
+      "source": "KAP",
+      "time": "20.08.2026 11:36",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-20T11:36:49.441867+00:00"
+    },
     {
       "title": "8 Dakika Önce Yapı Kredi Bankası'nın yurtdışında ihraç ettiği 50 milyon dolarlık borçlanma aracının itfası 20 Ağustos 2026'da gerçekleştirildi.",
       "summary": "",
@@ -1783,24 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-19T05:49:25.169213+00:00"
-    },
-    {
-      "title": "Balatacilar Balatacilik, 18 Ağustos'ta 70,50 TL fiyattan 220 adet payı geri aldı. Şirketin elindeki toplam pay sayısı 85.205 adete ulaştı.",
-      "summary": "",
-      "source": "KAP",
-      "time": "19.08.2026 05:49",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-19T05:49:25.169245+00:00"
-    },
-    {
-      "title": "8 Saat Önce Balatacilar Balatacilik, 18 Ağustos'ta 70,50 TL fiyattan 220 adet payı geri aldı. Şirketin elindeki toplam pay sayısı 85.205 adete ulaştı.",
-      "summary": "",
-      "source": "KAP",
-      "time": "19.08.2026 04:54",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-19T04:54:44.195988+00:00"
     }
   ]
 }
