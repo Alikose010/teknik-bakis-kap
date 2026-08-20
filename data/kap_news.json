@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-20T07:53:44.358974+00:00",
+  "lastUpdated": "2026-08-20T08:22:42.269392+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "1 Saat Önce Creditwest Faktoring, 20 Ağustos'ta 71 milyon TL nominal değerli, 182 gün vadeli finansman bonosu ihraç etti. Bonolar TLREF + %4,25 değişken faiz oranıyla 18 Şubat 2027'de itfa edilecek.",
+      "summary": "",
+      "source": "TLREF",
+      "time": "20.08.2026 08:22",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-20T08:22:42.263983+00:00"
+    },
     {
       "title": "42 Dakika Önce Creditwest Faktoring, 20 Ağustos'ta 71 milyon TL nominal değerli, 182 gün vadeli finansman bonosu ihraç etti. Bonolar TLREF + %4,25 değişken faiz oranıyla 18 Şubat 2027'de itfa edilecek",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-18T21:00:52.496863+00:00"
-    },
-    {
-      "title": "46 Dakika Önce Döktaş Dökümcülük'ün 30 Haziran 2026'da sona eren altı aylık dönemde net satışları 8,66 milyar TL, net kârı ise 59,63 milyon TL olarak gerçekleşti.",
-      "summary": "",
-      "source": "KAP",
-      "time": "18.08.2026 20:42",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-18T20:42:40.102715+00:00"
     }
   ]
 }
