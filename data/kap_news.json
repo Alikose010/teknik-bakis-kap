@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-22T15:09:39.083969+00:00",
+  "lastUpdated": "2026-08-22T15:32:59.711568+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "18 Saat Önce Europap Tezol, 21 Ağustos'ta ortalama 9,79 TL fiyattan 26.908 adet payı geri aldı. İşlem sonrası geri alınan payların nominal değeri 2,95 milyon TL'ye, sermayedeki oranı %0,59'a ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "22.08.2026 15:32",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-22T15:32:59.705521+00:00"
+    },
     {
       "title": "17 Saat Önce Europap Tezol, 21 Ağustos'ta ortalama 9,79 TL fiyattan 26.908 adet payı geri aldı. İşlem sonrası geri alınan payların nominal değeri 2,95 milyon TL'ye, sermayedeki oranı %0,59'a ulaştı.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-20T09:02:25.562013+00:00"
-    },
-    {
-      "title": "Katılım Varlık Kiralama, Karsan için 250 milyon TL nominal değerli, 175 gün vadeli kira sertifikası ihraç etti. Sertifikanın yıllık sabit getiri oranı %45 olarak belirlendi.",
-      "summary": "",
-      "source": "KAP",
-      "time": "20.08.2026 09:02",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-20T09:02:25.562031+00:00"
     }
   ]
 }
