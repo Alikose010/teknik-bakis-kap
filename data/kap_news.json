@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-22T07:06:42.423673+00:00",
+  "lastUpdated": "2026-08-22T07:40:01.759667+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "10 Saat Önce Europap Tezol, 21 Ağustos'ta ortalama 9,79 TL fiyattan 26.908 adet payı geri aldı. İşlem sonrası geri alınan payların nominal değeri 2,95 milyon TL'ye, sermayedeki oranı %0,59'a ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "22.08.2026 07:40",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-22T07:40:01.754804+00:00"
+    },
     {
       "title": "9 Saat Önce Europap Tezol, 21 Ağustos'ta ortalama 9,79 TL fiyattan 26.908 adet payı geri aldı. İşlem sonrası geri alınan payların nominal değeri 2,95 milyon TL'ye, sermayedeki oranı %0,59'a ulaştı.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-20T07:09:27.437658+00:00"
-    },
-    {
-      "title": "ARD Grup Bilişim, son kullanıcısı bir kamu kurumu olan proje kapsamında bilişim altyapısı ürünleri için KDV dahil 144,36 milyon TL tutarında sipariş aldı.",
-      "summary": "",
-      "source": "ARD",
-      "time": "20.08.2026 07:09",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-20T07:09:27.437675+00:00"
     }
   ]
 }
