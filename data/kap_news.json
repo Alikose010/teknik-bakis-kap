@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-23T21:18:37.856970+00:00",
-  "count": 135,
+  "lastUpdated": "2026-08-23T21:39:04.836119+00:00",
+  "count": 133,
   "items": [
+    {
+      "title": "2 Gün Önce Europap Tezol, 21 Ağustos'ta ortalama 9,79 TL fiyattan 26.908 adet payı geri aldı. İşlem sonrası geri alınan payların nominal değeri 2,95 milyon TL'ye, sermayedeki oranı %0,59'a ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "23.08.2026 21:39",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-23T21:39:04.833088+00:00"
+    },
     {
       "title": "Altunizade Mah. İnci Çıkmazı Sokak No:3 Daire:3 Üsküdar İstanbul",
       "summary": "",
@@ -1189,33 +1198,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-20T21:57:14.789958+00:00"
-    },
-    {
-      "title": "18 Dakika Önce Tera Portföy Yönetimi'nin yönettiği fonlar, 19 Ağustos 2026'da Tera Finansal Yatırımlar Holding'de 1,62 milyon TL nominal pay aldı ve 1.325 TL nominal pay sattı. İşlem sonrası şirket se",
-      "summary": "",
-      "source": "KAP",
-      "time": "20.08.2026 21:37",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-20T21:37:53.303822+00:00"
-    },
-    {
-      "title": "Tera Portföy yönetimindeki beş fon, 19 Ağustos'ta Anel Elektrik'te toplam 10,64 milyon TL nominal değerli pay aldı. İşlem sonrası şirket sermayesindeki toplam pay oranı %24,12'den %28,13'e yükseldi.",
-      "summary": "",
-      "source": "KAP",
-      "time": "20.08.2026 21:37",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-20T21:37:53.303855+00:00"
-    },
-    {
-      "title": "Tera Portföy Hisse Senedi Serbest Fonu, 19 Ağustos 2026'da 7,40 milyon TL nominal değerli TATEN payını sattı. İşlem sonrası fonun şirket sermayesindeki payı %5,17'den %4,51'e düştü.",
-      "summary": "",
-      "source": "TATEN",
-      "time": "20.08.2026 21:37",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-20T21:37:53.303873+00:00"
     }
   ]
 }
