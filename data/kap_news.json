@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-24T11:50:14.438305+00:00",
-  "count": 108,
+  "lastUpdated": "2026-08-24T12:16:30.518023+00:00",
+  "count": 107,
   "items": [
+    {
+      "title": "1 Saat Önce Enerjisa Enerji'nin 2 milyar TL nominal değerli tahvilinin 1. kupon ödemesi, dönemsel %10,785 faiz oranıyla 215,7 milyon TL olarak 24 Ağustos'ta gerçekleştirildi.",
+      "summary": "",
+      "source": "KAP",
+      "time": "24.08.2026 12:16",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-24T12:16:30.514997+00:00"
+    },
     {
       "title": "36 Dakika Önce Enerjisa Enerji'nin 2 milyar TL nominal değerli tahvilinin 1. kupon ödemesi, dönemsel %10,785 faiz oranıyla 215,7 milyon TL olarak 24 Ağustos'ta gerçekleştirildi.",
       "summary": "",
@@ -955,24 +964,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-21T12:25:50.490883+00:00"
-    },
-    {
-      "title": "18 Dakika Önce Golda Gıda'nın halka arzından elde edilen 775,39 milyon TL net fonun 21 Ağustos 2026 itibarıyla %32,89'u kullanıldı. Kullanılan 255 milyon TL'lik fon, işletme sermayesinin güçlendirilme",
-      "summary": "",
-      "source": "KAP",
-      "time": "21.08.2026 11:56",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-21T11:56:57.120261+00:00"
-    },
-    {
-      "title": "Euro Kapital Yatırım Ortaklığı, azami pay miktarı 12 milyon adet, azami fon tutarı 12 milyon TL olan pay geri alım programı başlattı. Pay geri alım programının süresi 3 yıl olarak belirlendi.",
-      "summary": "",
-      "source": "KAP",
-      "time": "21.08.2026 11:56",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-21T11:56:57.120304+00:00"
     }
   ]
 }
