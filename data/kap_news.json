@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-24T11:25:42.181789+00:00",
-  "count": 110,
+  "lastUpdated": "2026-08-24T11:50:14.438305+00:00",
+  "count": 108,
   "items": [
+    {
+      "title": "36 Dakika Önce Enerjisa Enerji'nin 2 milyar TL nominal değerli tahvilinin 1. kupon ödemesi, dönemsel %10,785 faiz oranıyla 215,7 milyon TL olarak 24 Ağustos'ta gerçekleştirildi.",
+      "summary": "",
+      "source": "KAP",
+      "time": "24.08.2026 11:50",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-24T11:50:14.435464+00:00"
+    },
     {
       "title": "12 Dakika Önce Enerjisa Enerji'nin 2 milyar TL nominal değerli tahvilinin 1. kupon ödemesi, dönemsel %10,785 faiz oranıyla 215,7 milyon TL olarak 24 Ağustos'ta gerçekleştirildi.",
       "summary": "",
@@ -964,33 +973,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-21T11:56:57.120304+00:00"
-    },
-    {
-      "title": "12 Dakika Önce Euro Kapital Yatırım Ortaklığı, azami pay miktarı 12 milyon adet, azami fon tutarı 12 milyon TL olan pay geri alım programı başlattı. Pay geri alım programının süresi 3 yıl olarak belir",
-      "summary": "",
-      "source": "KAP",
-      "time": "21.08.2026 11:36",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-21T11:36:01.858667+00:00"
-    },
-    {
-      "title": "Euro Menkul Kıymet Yatırım Ortaklığı, pay geri alım programını revize etti. Azami fon tutarı 12 milyon TL, azami pay sayısı 12 milyon adet olarak belirlendi. Program süresi 3 yıl.",
-      "summary": "",
-      "source": "KAP",
-      "time": "21.08.2026 11:36",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-21T11:36:01.858699+00:00"
-    },
-    {
-      "title": "Vestel Elektronik'in 24,34 milyon TL nominal değerli tahvilinin 3. kupon ödemesi bugün gerçekleştirildi. Ödeme tutarı 2,73 milyon TL olarak tamamlandı ve 4. kupon dönemine ilişkin faiz oranı %14,5480 ",
-      "summary": "",
-      "source": "KAP",
-      "time": "21.08.2026 11:36",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-21T11:36:01.858720+00:00"
     }
   ]
 }
