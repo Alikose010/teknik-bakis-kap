@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-29T19:42:38.049214+00:00",
-  "count": 72,
+  "lastUpdated": "2026-08-29T21:58:19.570228+00:00",
+  "count": 69,
   "items": [
+    {
+      "title": "1 Gün Önce Europap Tezol, 25 Ağustos'ta ortalama 9,66 TL fiyattan 50.000 adet payı geri aldı. Şirketin geri aldığı payların sermayeye oranı %0,72'ye ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "29.08.2026 21:58",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-08-29T21:58:19.567959+00:00"
+    },
     {
       "title": "23 Saat Önce Europap Tezol, 25 Ağustos'ta ortalama 9,66 TL fiyattan 50.000 adet payı geri aldı. Şirketin geri aldığı payların sermayeye oranı %0,72'ye ulaştı.",
       "summary": "",
@@ -613,42 +622,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-08-27T00:39:55.079590+00:00"
-    },
-    {
-      "title": "50 Dakika Önce Yeo Teknoloji, Abu Dhabi merkezli Intelligent Industries'deki %50 oranındaki iştirak payını 115.255 dolara IGC'ye devretti. İşlemden 5,54 milyon TL satış kârı elde edildi.",
-      "summary": "",
-      "source": "IGC",
-      "time": "26.08.2026 21:06",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-26T21:06:12.113648+00:00"
-    },
-    {
-      "title": "EMPA Elektronik, Deico Elektronik ile %50-%50 ortaklıkla 25 milyon TL sermayeli Versom Elektronik'i kurdu. EMPA'nın taahhüt ettiği 12,5 milyon TL'nin %25'i peşin, %75'i vadeli ödenecek.",
-      "summary": "",
-      "source": "EMPA",
-      "time": "26.08.2026 21:06",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-26T21:06:12.113683+00:00"
-    },
-    {
-      "title": "Balatacilar Balatacılık, 26 Ağustos'ta 68 TL fiyattan 19.000 adet ve 69 TL fiyattan 1.356 adet payı geri aldı. Şirketin sahip olduğu toplam pay sayısı 132.311 adete ulaştı.",
-      "summary": "",
-      "source": "KAP",
-      "time": "26.08.2026 21:06",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-26T21:06:12.113703+00:00"
-    },
-    {
-      "title": "Gersan Elektrik, ortalama 39,36 TL fiyattan 180.000 adet payı geri aldı. Şirketin sahip olduğu toplam pay sayısı 1.131.710 adete ulaştı.",
-      "summary": "",
-      "source": "KAP",
-      "time": "26.08.2026 21:06",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-08-26T21:06:12.113717+00:00"
     }
   ]
 }
