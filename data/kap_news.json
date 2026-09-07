@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-09-07T19:52:15.909486+00:00",
-  "count": 80,
+  "lastUpdated": "2026-09-07T22:20:52.571753+00:00",
+  "count": 79,
   "items": [
+    {
+      "title": "2 Saat Önce İzgi Holding, 7 Eylül 2026'da GEREL paylarını 37,46-42,36 TL'den 1,20 milyon TL alış, 37,56 TL'den 1.000 TL satış yaptı. Sermaye payı %14,99'a yükseldi.",
+      "summary": "",
+      "source": "GEREL",
+      "time": "07.09.2026 22:20",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-09-07T22:20:52.569616+00:00"
+    },
+    {
+      "title": "Kervan Gıda, geçmiş yıl karlarından hisse başına net 0,01 TL temettü dağıtma kararı aldı. Karar, düzenlenecek ilk genel kurul toplantısında onaya sunulacak.",
+      "summary": "",
+      "source": "KAP",
+      "time": "07.09.2026 22:20",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-09-07T22:20:52.569649+00:00"
+    },
     {
       "title": "41 Dakika Önce Kervan Gıda, geçmiş yıl karlarından hisse başına net 0,01 TL temettü dağıtma kararı aldı. Karar, düzenlenecek ilk genel kurul toplantısında onaya sunulacak.",
       "summary": "",
@@ -694,33 +712,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-09-04T23:06:59.279057+00:00"
-    },
-    {
-      "title": "1 Saat Önce TSPOR, futbolcu Ali Habeşoğlu ile 3+1 yıllık sözleşme imzaladı. Garanti ücretler: 2026-27'de 16 milyon TL, 2027-28'de 19 milyon TL, 2028-29'da 22 milyon TL, opsiyon kullanılırsa 2029-30'da",
-      "summary": "",
-      "source": "TSPOR",
-      "time": "04.09.2026 21:23",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-09-04T21:23:12.520005+00:00"
-    },
-    {
-      "title": "Trabzonspor, Bodrumspor'dan Ali Habeşoğlu'nu kesin transferi için 1,65 milyon euro bedelle transfer etti. Bedel 5 taksitte ödenecek ve futbolcunun gelecekteki transferinden elde edilecek gelirin %17's",
-      "summary": "",
-      "source": "KAP",
-      "time": "04.09.2026 21:23",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-09-04T21:23:12.520060+00:00"
-    },
-    {
-      "title": "Deniz GYO'nun uzun vadeli ulusal kredi notu KR AA+, kısa vadeli notu KR A-1 olarak teyit edildi. Görünüm durağan olarak belirlendi.",
-      "summary": "",
-      "source": "GYO",
-      "time": "04.09.2026 21:23",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-09-04T21:23:12.520076+00:00"
     }
   ]
 }
