@@ -1,7 +1,196 @@
 {
-  "lastUpdated": "2026-10-06T09:50:38.401629+00:00",
-  "count": 80,
+  "lastUpdated": "2026-10-06T16:18:33.079883+00:00",
+  "count": 100,
   "items": [
+    {
+      "title": "10 Dakika Önce Ekinciler Demir, 22 Eylül 2026'da başlatılan pay geri alım programını revize etti; azami pay sayısı 5 milyon adet, azami fon tutarı 350 milyon TL olarak güncellendi.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077728+00:00"
+    },
+    {
+      "title": "PC İletişim, 6 Ekim'de ortalama 31,08 TL fiyattan 20.000 lot PCILT payı geri aldı.",
+      "summary": "",
+      "source": "PCILT",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077764+00:00"
+    },
+    {
+      "title": "Kuzugrup GYO, 6 Ekim'de ortalama 16,61 TL fiyattan 170.418 adet payı geri aldı.",
+      "summary": "",
+      "source": "GYO",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077775+00:00"
+    },
+    {
+      "title": "Egeyapi Avrupa GYO, 6 Ekim'de ortalama 16,72 TL fiyattan 45.681 adet payı geri aldı.",
+      "summary": "",
+      "source": "GYO",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077783+00:00"
+    },
+    {
+      "title": "Lokman Hekim, 21 Ağustos – 27 Ağustos tarihleri arasında 18,14 TL – 20,17 TL fiyat aralığından toplam 224.254 adet payı geri aldı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077800+00:00"
+    },
+    {
+      "title": "Akhan Un Fabrikası, 6 Ekim'de ortalama 27,99 TL fiyattan 108.152 adet payı geri aldı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077809+00:00"
+    },
+    {
+      "title": "Quick Sigorta, 6 Ekim'de ortalama 48,23 TL fiyattan 955.699 TL nominal değerli payı geri aldı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077828+00:00"
+    },
+    {
+      "title": "Luxera GYO, 6 Ekim 2026'da ortalama 7,45 TL fiyattan 449.871 TL nominal tutarlı payı geri aldı.",
+      "summary": "",
+      "source": "GYO",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077837+00:00"
+    },
+    {
+      "title": "Etiler, 2 Ekim 2026 vadeli işlemlerde 7,68 TL – 7,72 TL fiyat aralığından toplam 343.656 adet payı geri aldı. 5 Ekim 2026 vadeli işlemlerde ise 7,36 TL – 7,37 TL fiyat aralığından 7.696 adet pay geri ",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077855+00:00"
+    },
+    {
+      "title": "Kapeks Kimya, 6 Ekim'de ortalama 52,91 TL fiyattan 115.000 adet payı geri aldı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077863+00:00"
+    },
+    {
+      "title": "İmaş Makina, Afrika'daki bir müşterisiyle 1,9 milyon USD bedelli yem değirmeni kurulumu sözleşmesi imzaladı. Sevkiyatın 2027'nin ilk çeyreğinde yapılması planlanıyor.",
+      "summary": "",
+      "source": "USD",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077876+00:00"
+    },
+    {
+      "title": "Ağaoğlu GYO, pay geri alım programını güncelledi.",
+      "summary": "",
+      "source": "GYO",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077884+00:00"
+    },
+    {
+      "title": "Dagi, 29-30 Temmuz 2026 tarihlerinde ortalama 8,69 TL fiyattan toplam 500.000 adet payı geri aldı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077894+00:00"
+    },
+    {
+      "title": "Halk GYO, 10 milyar TL'ye kadar nominal değerde yönetim sözleşmesine dayalı kira sertifikası ihraç edecek. İhraçta Halk Varlık Kiralama ihraçcı, Halk Yatırım ise finansal danışman ve lider aracı kurum",
+      "summary": "",
+      "source": "GYO",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077910+00:00"
+    },
+    {
+      "title": "Grainturk Holding, 6 Ekim'de ortalama 114,14 TL fiyattan 83.137 TL nominal değerli GRTHO payı geri aldı. Böylece program kapsamında geri alınan payların toplam nominal değeri 1.777.000 TL'ye ulaştı.",
+      "summary": "",
+      "source": "GRTHO",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077923+00:00"
+    },
+    {
+      "title": "Enerya Enerji, 6 Ekim'de ortalama 13,72 TL fiyattan 5.608.283 adet payı geri aldı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077933+00:00"
+    },
+    {
+      "title": "Ahlatcı Doğal Gaz, 6 Ekim'de ortalama 45,64 TL fiyattan 782.339 adet payı geri aldı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077942+00:00"
+    },
+    {
+      "title": "Ahlatcı Doğal Gaz'ın dolaylı bağlı ortaklığı Ahlatcı Altın İşletmeleri, Kütahya'nın Simav ilçesindeki iki ruhsat sahasında sondajlı arama faaliyetlerine başladı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077956+00:00"
+    },
+    {
+      "title": "Enerya Enerji'nin %100 bağlı ortaklığı Ahlatcı Altın İşletmeleri, Kütahya'nın Simav ilçesindeki 202500390 ve 202500391 numaralı ruhsat sahalarında sondajlı arama faaliyetlerine başladı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077970+00:00"
+    },
+    {
+      "title": "Gipta Ofis, 6 Ekim'de ortalama 27,95 TL fiyattan 20.000 adet payı geri aldı. Şirketin sermayesindeki pay oranı %0,10985'e ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077981+00:00"
+    },
+    {
+      "title": "Kervan Gıda, 6 Ekim'de ortalama 2,13 TL fiyattan 650.000 adet payı geri aldı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "06.10.2026 16:18",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-06T16:18:33.077990+00:00"
+    },
     {
       "title": "25 Dakika Önce Garanti Bankası'nın 30 Eylül 2025'te ihraç ettiği 15 milyon euro tutarındaki MTN borçlanma aracının itfası 5 Ekim 2026'da gerçekleştirildi.",
       "summary": "",
@@ -712,15 +901,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-10-03T17:12:16.265045+00:00"
-    },
-    {
-      "title": "17 Saat Önce Emlak Konut GYO, Kentsel Dönüşüm Başkanlığı ile protokol kapsamında İstanbul ve Muğla'da toplam 395.268 m² büyüklüğünde taşınmaz satın aldı. Alım bedeli 6,76 milyar TL olup mahsup yoluyla",
-      "summary": "",
-      "source": "GYO",
-      "time": "03.10.2026 13:05",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-10-03T13:05:54.890734+00:00"
     }
   ]
 }
