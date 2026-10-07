@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-10-06T21:01:33.764929+00:00",
-  "count": 114,
+  "lastUpdated": "2026-10-07T00:36:22.568311+00:00",
+  "count": 110,
   "items": [
+    {
+      "title": "4 Saat Önce TGS Dış Ticaret, 6 Ekim'de ortalama 133,71 TL fiyattan 46.290 adet TGSAS payı geri aldı. Geri alınan toplam pay adedi 99.139'a ulaştı.",
+      "summary": "",
+      "source": "TGS",
+      "time": "07.10.2026 00:36",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-07T00:36:22.565542+00:00"
+    },
     {
       "title": "1 Saat Önce TGS Dış Ticaret, 6 Ekim'de ortalama 133,71 TL fiyattan 46.290 adet TGSAS payı geri aldı. Geri alınan toplam pay adedi 99.139'a ulaştı.",
       "summary": "",
@@ -982,51 +991,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-10-04T13:20:27.126297+00:00"
-    },
-    {
-      "title": "METRO TİCARİ VE MALİ YATIRIMLAR HOLDİNG A.Ş. (Finansal Duran Varlık Edinimi)",
-      "summary": "Finansal Duran Varlık Edinimi",
-      "source": "METRO",
-      "time": "03.10.2026 22:30",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/metro-metro-ticari-ve-mali-yatirimlar-hol_ID102258795/",
-      "within72h": true,
-      "rawDate": "2026-10-03T22:30:00.234568+00:00"
-    },
-    {
-      "title": "SERMAYE PİYASASI KURULU (SPK Bülteni)",
-      "summary": "SPK Bülteni",
-      "source": "KURULU",
-      "time": "03.10.2026 22:30",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/sermaye-piyasasi-kurulu-spk-bulteni_ID102258794/",
-      "within72h": true,
-      "rawDate": "2026-10-03T22:30:00.234626+00:00"
-    },
-    {
-      "title": "SPARTA PORTFÖY YÖNETİMİ A.Ş. (Portföy Dağılım Raporu)",
-      "summary": "Portföy Dağılım Raporu",
-      "source": "SRT",
-      "time": "03.10.2026 22:30",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/srt-sparta-portfoy-yonetimi-a-s-portfoy_ID102258793/",
-      "within72h": true,
-      "rawDate": "2026-10-03T22:30:00.234633+00:00"
-    },
-    {
-      "title": "DENİZ FİNANSAL KİRALAMA A.Ş. (Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren))",
-      "summary": "Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren",
-      "source": "DNFIN",
-      "time": "03.10.2026 22:30",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/dnfin-deniz-finansal-kiralama-a-s-pay-d_ID102258792/",
-      "within72h": true,
-      "rawDate": "2026-10-03T22:30:00.234639+00:00"
-    },
-    {
-      "title": "PC İLETİŞİM VE MEDYA HİZMETLERİ SANAYİ TİCARET A.Ş. (Payların Geri Alınmasına İlişkin Bildirim)",
-      "summary": "Payların Geri Alınmasına İlişkin Bildirim",
-      "source": "PCILT",
-      "time": "03.10.2026 22:30",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/pcilt-pc-iletisim-ve-medya-hizmetleri-san_ID102258791/",
-      "within72h": true,
-      "rawDate": "2026-10-03T22:30:00.234643+00:00"
     }
   ]
 }
