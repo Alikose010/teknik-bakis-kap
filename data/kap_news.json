@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-10-10T22:25:51.040260+00:00",
-  "count": 130,
+  "lastUpdated": "2026-10-11T01:05:24.102227+00:00",
+  "count": 129,
   "items": [
+    {
+      "title": "Altunizade Mah. İnci Çıkmazı Sokak No:3 Daire:3 Üsküdar İstanbul",
+      "summary": "",
+      "source": "KAP",
+      "time": "11.10.2026 01:05",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-11T01:05:24.100269+00:00"
+    },
     {
       "title": "1 Gün Önce Marmaris Altınyunus, Mares Otel kira sözleşmesinin TBC Seyahat'e devri için Rekabet Kurulu'ndan izin aldı. Devir bedeli 400.000 USD, yıllık kira bedeli ise en az 400.000 USD olarak belirlen",
       "summary": "",
@@ -1153,24 +1162,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-10-08T02:58:14.707527+00:00"
-    },
-    {
-      "title": "3 Saat Önce Aksigorta'nın Ocak-Eylül 2026 döneminde brüt yazılan prim üretimi %38 artışla 32,61 milyar TL oldu.",
-      "summary": "",
-      "source": "KAP",
-      "time": "07.10.2026 23:41",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-10-07T23:41:54.174632+00:00"
-    },
-    {
-      "title": "EBEBK, 1 Kasım itibarıyla İç Denetim ve Risk Yönetimi Direktörlüğü'ne Abidder Emin Şimşek'i atadı. İş Geliştirme Direktörlüğü kapatılarak Kuzey Irak operasyonları Genel Müdür'e bağlandı.",
-      "summary": "",
-      "source": "EBEBK",
-      "time": "07.10.2026 23:41",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-10-07T23:41:54.174663+00:00"
     }
   ]
 }
