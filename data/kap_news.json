@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-10-17T00:52:07.285925+00:00",
+  "lastUpdated": "2026-10-17T05:08:27.129599+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "9 Saat Önce LDR Turizm, 16 Ekim'de ortalama 7,90 TL fiyattan 250.000 adet payı geri aldı. Şirketin sahip olduğu toplam pay sayısı 20.250.000 adete ulaştı.",
+      "summary": "",
+      "source": "LDR",
+      "time": "17.10.2026 05:08",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-17T05:08:27.123945+00:00"
+    },
     {
       "title": "5 Saat Önce LDR Turizm, 16 Ekim'de ortalama 7,90 TL fiyattan 250.000 adet payı geri aldı. Şirketin sahip olduğu toplam pay sayısı 20.250.000 adete ulaştı.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-10-14T11:58:00.881189+00:00"
-    },
-    {
-      "title": "Erciyas Çelik'in 114 milyon TL nominal değerli, 131 gün vadeli finansman bonosu 14 Ekim 2026'da itfa edildi.",
-      "summary": "",
-      "source": "KAP",
-      "time": "14.10.2026 11:58",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-10-14T11:58:00.881198+00:00"
     }
   ]
 }
