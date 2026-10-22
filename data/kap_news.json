@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-10-22T19:25:19.885851+00:00",
+  "lastUpdated": "2026-10-22T22:31:25.073046+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "3 Saat Önce CVK Maden, 22 Ekim'de ortalama 11,80 TL fiyattan 158.022 adet payı geri aldı. Geri alınan payların toplam nominal değeri 16,05 milyon TL'ye, sermayeye oranı ise %0,42'ye ulaştı.",
+      "summary": "",
+      "source": "CVK",
+      "time": "22.10.2026 22:31",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-22T22:31:25.067850+00:00"
+    },
+    {
+      "title": "Fitch, Şekerbank'ın uzun vadeli yabancı ve yerel para kredi notlarını \"B+\" olarak teyit etti; finansal kapasite notu \"b+\", görünüm durağan olarak belirlendi.",
+      "summary": "",
+      "source": "KAP",
+      "time": "22.10.2026 22:31",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-22T22:31:25.067888+00:00"
+    },
     {
       "title": "15 Dakika Önce Fitch, Şekerbank'ın uzun vadeli yabancı ve yerel para kredi notlarını \"B+\" olarak teyit etti; finansal kapasite notu \"b+\", görünüm durağan olarak belirlendi.",
       "summary": "",
@@ -1783,24 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-10-20T15:42:28.623197+00:00"
-    },
-    {
-      "title": "Çitlekçi Mağazacılık, 20 Ekim 2026'da ortalama 86,06 TL fiyattan 354.775 adet payı geri aldı.",
-      "summary": "",
-      "source": "KAP",
-      "time": "20.10.2026 15:42",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-10-20T15:42:28.623207+00:00"
-    },
-    {
-      "title": "Adra GYO, 20 Ekim'de 42,12 TL – 46,50 TL fiyat aralığından 200.000 adet payı geri aldı. Şirketin sahip olduğu toplam pay sayısı 24.485.000 adete ulaştı.",
-      "summary": "",
-      "source": "GYO",
-      "time": "20.10.2026 15:42",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-10-20T15:42:28.623221+00:00"
     }
   ]
 }
