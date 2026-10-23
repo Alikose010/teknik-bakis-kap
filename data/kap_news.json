@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-10-23T00:53:46.517965+00:00",
+  "lastUpdated": "2026-10-23T05:30:41.362243+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "8 Saat Önce CVK Maden, 22 Ekim'de ortalama 11,80 TL fiyattan 158.022 adet payı geri aldı. Geri alınan payların toplam nominal değeri 16,05 milyon TL'ye, sermayeye oranı ise %0,42'ye ulaştı.",
+      "summary": "",
+      "source": "CVK",
+      "time": "23.10.2026 05:30",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-23T05:30:41.357224+00:00"
+    },
     {
       "title": "5 Saat Önce CVK Maden, 22 Ekim'de ortalama 11,80 TL fiyattan 158.022 adet payı geri aldı. Geri alınan payların toplam nominal değeri 16,05 milyon TL'ye, sermayeye oranı ise %0,42'ye ulaştı.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-10-20T15:42:28.623175+00:00"
-    },
-    {
-      "title": "Akfen GYO, 20 Ekim 2026 tarihli pay geri alım işlemlerine ilişkin güncelleme yaptı.",
-      "summary": "",
-      "source": "GYO",
-      "time": "20.10.2026 15:42",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-10-20T15:42:28.623183+00:00"
     }
   ]
 }
