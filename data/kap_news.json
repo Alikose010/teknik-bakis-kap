@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-10-23T19:14:08.197129+00:00",
+  "lastUpdated": "2026-10-23T22:11:58.394435+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "2 Saat Önce Akiş GYO, pay geri alım programı kapsamında güncelleme bildirimi yayımladı.",
+      "summary": "",
+      "source": "GYO",
+      "time": "23.10.2026 22:11",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-23T22:11:58.388836+00:00"
+    },
+    {
+      "title": "Astor Enerji'nin ana hissedarları Feridun Geçgel ve Enver Geçgel hakkında uygulanan tedbir ve dondurma kararları İstanbul Cumhuriyet Başsavcılığı tarafından kaldırıldı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "23.10.2026 22:11",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-23T22:11:58.388871+00:00"
+    },
     {
       "title": "51 Dakika Önce Astor Enerji'nin ana hissedarları Feridun Geçgel ve Enver Geçgel hakkında uygulanan tedbir ve dondurma kararları İstanbul Cumhuriyet Başsavcılığı tarafından kaldırıldı.",
       "summary": "",
@@ -1783,24 +1801,6 @@
       "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/aagyo-agaoglu-avrasya-gayrimenkul-yatirim_ID102273329/",
       "within72h": true,
       "rawDate": "2026-10-21T15:25:38.473967+00:00"
-    },
-    {
-      "title": "BEYAZ FİLO OTO KİRALAMA A.Ş. (Özel Durum Açıklaması (Genel))",
-      "summary": "Özel Durum Açıklaması (Genel",
-      "source": "BEYAZ",
-      "time": "21.10.2026 15:25",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/beyaz-beyaz-filo-oto-kiralama-a-s-ozel_ID102273328/",
-      "within72h": true,
-      "rawDate": "2026-10-21T15:25:38.473969+00:00"
-    },
-    {
-      "title": "GARANTİ PORTFÖY YÖNETİMİ A.Ş. (Borsa Dışı Repo - Ters Repo Sözleşmesi)",
-      "summary": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
-      "source": "GPY",
-      "time": "21.10.2026 15:25",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/gpy-garanti-portfoy-yonetimi-a-s-borsa_ID102273324/",
-      "within72h": true,
-      "rawDate": "2026-10-21T15:25:38.473972+00:00"
     }
   ]
 }
