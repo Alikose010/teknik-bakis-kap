@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-10-24T21:31:56.849511+00:00",
-  "count": 200,
+  "lastUpdated": "2026-10-24T23:38:03.435757+00:00",
+  "count": 195,
   "items": [
+    {
+      "title": "1 Gün Önce Akiş GYO, pay geri alım programı kapsamında güncelleme bildirimi yayımladı.",
+      "summary": "",
+      "source": "GYO",
+      "time": "24.10.2026 23:38",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-24T23:38:03.431086+00:00"
+    },
     {
       "title": "RODRİGO TEKSTİL SANAYİ VE TİCARET A.Ş. (Sorumluluk Beyanı (Konsolide))",
       "summary": "Sorumluluk Beyanı (Konsolide",
@@ -1747,60 +1756,6 @@
       "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/blcyt-bilici-yatirim-sanayi-ve-ticaret-a_ID102273875/",
       "within72h": true,
       "rawDate": "2026-10-22T00:52:00.267469+00:00"
-    },
-    {
-      "title": "BORSA İSTANBUL BISTECH DEVRE KESİCİ UYGULAMASI (Pay Bazında Devre Kesici Bildirimi)",
-      "summary": "Pay Bazında Devre Kesici Bildirimi",
-      "source": "IZMDC",
-      "time": "21.10.2026 22:31",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/izmdc-borsa-istanbul-bistech-devre-kesici_ID102273697/",
-      "within72h": true,
-      "rawDate": "2026-10-21T22:31:47.480347+00:00"
-    },
-    {
-      "title": "BORSA İSTANBUL BISTECH DEVRE KESİCİ UYGULAMASI (Pay Bazında Devre Kesici Bildirimi)",
-      "summary": "Pay Bazında Devre Kesici Bildirimi",
-      "source": "DOGUB",
-      "time": "21.10.2026 22:31",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/dogub-borsa-istanbul-bistech-devre-kesici_ID102273696/",
-      "within72h": true,
-      "rawDate": "2026-10-21T22:31:47.480367+00:00"
-    },
-    {
-      "title": "QNB FİNANSAL KİRALAMA A.Ş. (Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren))",
-      "summary": "Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren",
-      "source": "QNBFK",
-      "time": "21.10.2026 22:31",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/qnbfk-qnb-finansal-kiralama-a-s-pay-dis_ID102273695/",
-      "within72h": true,
-      "rawDate": "2026-10-21T22:31:47.480371+00:00"
-    },
-    {
-      "title": "ÇAĞDAŞ FAKTORİNG A.Ş. (Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren))",
-      "summary": "Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren",
-      "source": "CAGFA",
-      "time": "21.10.2026 22:31",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/cagfa-cagdas-faktoring-a-s-pay-disinda_ID102273694/",
-      "within72h": true,
-      "rawDate": "2026-10-21T22:31:47.480376+00:00"
-    },
-    {
-      "title": "ÇAĞDAŞ FAKTORİNG A.Ş. (Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren))",
-      "summary": "Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren",
-      "source": "CAGFA",
-      "time": "21.10.2026 22:31",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/cagfa-cagdas-faktoring-a-s-pay-disinda_ID102273693/",
-      "within72h": true,
-      "rawDate": "2026-10-21T22:31:47.480380+00:00"
-    },
-    {
-      "title": "BORSA İSTANBUL BISTECH DEVRE KESİCİ UYGULAMASI (Pay Bazında Devre Kesici Bildirimi)",
-      "summary": "Pay Bazında Devre Kesici Bildirimi",
-      "source": "TURSG",
-      "time": "21.10.2026 22:31",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/tursg-borsa-istanbul-bistech-devre-kesici_ID102273692/",
-      "within72h": true,
-      "rawDate": "2026-10-21T22:31:47.480383+00:00"
     }
   ]
 }
