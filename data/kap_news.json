@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-10-23T22:11:58.394435+00:00",
+  "lastUpdated": "2026-10-24T00:43:47.335119+00:00",
   "count": 200,
   "items": [
+    {
+      "title": "5 Saat Önce Akiş GYO, pay geri alım programı kapsamında güncelleme bildirimi yayımladı.",
+      "summary": "",
+      "source": "GYO",
+      "time": "24.10.2026 00:43",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-24T00:43:47.330995+00:00"
+    },
     {
       "title": "2 Saat Önce Akiş GYO, pay geri alım programı kapsamında güncelleme bildirimi yayımladı.",
       "summary": "",
@@ -1792,15 +1801,6 @@
       "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/krvgd-kervan-gida-sanayi-ve-ticaret-a-s_ID102273330/",
       "within72h": true,
       "rawDate": "2026-10-21T15:25:38.473964+00:00"
-    },
-    {
-      "title": "AĞAOĞLU AVRASYA GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş. (Payların Geri Alınmasına İlişkin Bildirim)",
-      "summary": "Payların Geri Alınmasına İlişkin Bildirim",
-      "source": "AAGYO",
-      "time": "21.10.2026 15:25",
-      "url": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/aagyo-agaoglu-avrasya-gayrimenkul-yatirim_ID102273329/",
-      "within72h": true,
-      "rawDate": "2026-10-21T15:25:38.473967+00:00"
     }
   ]
 }
