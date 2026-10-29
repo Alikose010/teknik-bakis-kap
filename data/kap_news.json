@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-10-28T23:29:13.962895+00:00",
-  "count": 185,
+  "lastUpdated": "2026-10-29T02:37:36.562957+00:00",
+  "count": 184,
   "items": [
+    {
+      "title": "5 Saat Önce PC İletişim, 28 Ekim'de ortalama 28,04 TL fiyattan 107.050 adet PCILT payını geri aldı.",
+      "summary": "",
+      "source": "PCILT",
+      "time": "29.10.2026 02:37",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-10-29T02:37:36.558660+00:00"
+    },
     {
       "title": "1 Saat Önce PC İletişim, 28 Ekim'de ortalama 28,04 TL fiyattan 107.050 adet PCILT payını geri aldı.",
       "summary": "",
@@ -1648,24 +1657,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-10-26T06:15:14.019849+00:00"
-    },
-    {
-      "title": "2 Saat Önce CVK Maden'in 2026 yılı 3. çeyrek konsolide finansal sonuçlarına göre toplam varlıklar 32,27 milyar TL olarak gerçekleşti.",
-      "summary": "",
-      "source": "CVK",
-      "time": "26.10.2026 01:15",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-10-26T01:15:35.710349+00:00"
-    },
-    {
-      "title": "Akiş GYO, pay geri alım programı kapsamında güncelleme bildirimi yayımladı.",
-      "summary": "",
-      "source": "GYO",
-      "time": "26.10.2026 01:15",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-10-26T01:15:35.710379+00:00"
     }
   ]
 }
