@@ -1,7 +1,196 @@
 {
-  "lastUpdated": "2026-11-17T01:12:42.416314+00:00",
-  "count": 56,
+  "lastUpdated": "2026-11-17T09:14:14.122161+00:00",
+  "count": 75,
   "items": [
+    {
+      "title": "23 Dakika Önce Enerjisa Enerji, 17 Kasım 2026'da 1,7 milyar TL tutarında, 728 gün vadeli, TLREF+%1,25 değişken faizli ve 3 ayda bir kupon ödemeli tahvil ihracını tamamladı. Tahvilin itfa tarihi 14 Kas",
+      "summary": "",
+      "source": "TLREF",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119673+00:00"
+    },
+    {
+      "title": "Tümosan Motor, İstanbul Ağaç Peyzaj ile 8 numaralı kısım için 94,23 milyon TL + KDV bedelli sözleşme imzaladı. Daha önce imzalanan kısımlarla birlikte toplam sözleşme bedeli 881,64 milyon TL + KDV'ye ",
+      "summary": "",
+      "source": "KDV",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119712+00:00"
+    },
+    {
+      "title": "Kemal Şedele, 13 Kasım'da Duran Doğan paylarını 5,43 – 5,94 TL fiyat aralığından 1,70 milyon TL nominal tutarında aldı. İşlem sonrası şirketteki pay oranı %10'a ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119732+00:00"
+    },
+    {
+      "title": "Güriş Holding, 17 Kasım 2026'da Mogan Enerji Yatırım Holding paylarından ortalama 9,70 TL fiyattan 103.165 adet alış gerçekleştirdi. İşlem sonrası şirketin sermayesindeki payı %0,26 oldu.",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119748+00:00"
+    },
+    {
+      "title": "BRISA, Katılım Varlık tarafından 500 mn TL nominal değerli, 724 gün vadeli kira sertifikası ihraç etti. Vade tarihi 10.11.2028 olan sertifika, TLREFK+%1,25 getiriyle satışa sunuldu.",
+      "summary": "",
+      "source": "BRISA",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119760+00:00"
+    },
+    {
+      "title": "Global Menkul Değerler'in Adana Şubesi 17 Kasım 2026 itibarıyla kapatıldı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119769+00:00"
+    },
+    {
+      "title": "Yeo Teknoloji, yurt dışında 300 milyon dolar tutarında borçlanma aracı ihracı için SPK onaylı ihraç belgesini aldı.",
+      "summary": "",
+      "source": "SPK",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119787+00:00"
+    },
+    {
+      "title": "DCT Trading, 2026/2027 sezonu kapsamında 90,16 milyon TL'lik yurt içi pamuk alım anlaşması imzaladı.",
+      "summary": "",
+      "source": "DCT",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119797+00:00"
+    },
+    {
+      "title": "EKOS, yurt içi ve yurt dışı firmalarla OG ürünleri, beton köşkler, koruma röleleri ve transformatörler kapsamında sözleşmeler imzaladı. Toplam satış tutarı 4,93 milyon USD ve 3,37 milyon EUR; teslimat",
+      "summary": "",
+      "source": "EKOS",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119811+00:00"
+    },
+    {
+      "title": "Menderes Tekstil, 16 Kasım 2026'da ortalama 9,09 TL fiyattan 188.222 adet MNDRS B Grubu payı geri aldı.",
+      "summary": "",
+      "source": "MNDRS",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119822+00:00"
+    },
+    {
+      "title": "PC İletişim, 16 Kasım'da ortalama 27,14 TL fiyattan 43.200 adet PCILT payını geri aldı.",
+      "summary": "",
+      "source": "PCILT",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119831+00:00"
+    },
+    {
+      "title": "Goldman Sachs International, 12 Kasım 2026'da Petkim'e ait 3.592.875 adet payı 16,84 TL fiyattan sattı. Bu işlemle The Goldman Sachs Group'un Petkim'deki dolaylı pay oranı %3,05'ten %2,91'e düştü.",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119847+00:00"
+    },
+    {
+      "title": "Eksim Yatırım Holding, 16 Kasım'da Eksun Gida paylarını 4,04 – 4,18 TL fiyat aralığından 386.100 adet aldı. İşlem sonrası şirketin sermayedeki payı %74,65, oy hakları ise %85,21 oldu.",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119862+00:00"
+    },
+    {
+      "title": "Cevahir Taahhüt, 16 Kasım'da 186,30 TL – 189,00 TL fiyat aralığından 40.465 adet Tekfen Holding payı aldı. İşlem sonrası birlikte hareket eden şirketlerle toplam pay oranı %37,82'ye ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119877+00:00"
+    },
+    {
+      "title": "MNK Girişim Holding, 16 Kasım 2026'da Dagi paylarını 5,87 – 6,01 TL fiyat aralığından 270.119 TL nominal tutarla satın aldı. İşlem sonrası şirketin Dagi sermayesindeki payı %50,53'e ulaştı.",
+      "summary": "",
+      "source": "MNK",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119888+00:00"
+    },
+    {
+      "title": "Merrill Lynch International, 13 Kasım 2026'da Türk Altın İşletmeleri paylarını 38,06 - 38,60 TL fiyat aralığından net 1.761.648 adet satın aldı. Bu işlemle Merrill Lynch'in şirketteki pay oranı %3,028",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119904+00:00"
+    },
+    {
+      "title": "Bank of America, 13 Kasım'da iştiraki Merrill Lynch International aracılığıyla 3,52 - 3,53 TL fiyat aralığından net 430.870 adet Manas Enerji payı satın aldı. İşlem sonrası şirketin Manas Enerji serma",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119922+00:00"
+    },
+    {
+      "title": "Doğanlar Yatırım Holding, 16 Kasım 2026'da 13,14 – 13,62 TL fiyat aralığından 500.214 TL nominal tutarlı Biotrend Çevre pay alımı gerçekleştirdi. İşlem sonrası şirketin sermayesindeki payı %50,39'a yü",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119938+00:00"
+    },
+    {
+      "title": "Merrill Lynch International, 13 Kasım 2026'da İnfo Yatırım paylarını 0,88–0,89 TL fiyat aralığından net 22,75 milyon TL nominal tutarında sattı. İşlem sonrası Bank of America'nın dolaylı pay oranı %3,",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119955+00:00"
+    },
+    {
+      "title": "Kimteks Poliüretan Yönetim Kurulu Başkanı Yuda Leon Mizrahi, 16 Kasım 2026'da ortalama 12,23 TL fiyattan 500.000 adet hisse aldı. İşlem sonrası şirket sermayesindeki payı %35,03'e yükseldi.",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119970+00:00"
+    },
+    {
+      "title": "Efor Holding, 16 Kasım'da Efor Yatırım paylarını 10,26 – 10,59 TL fiyat aralığından 4,15 milyon TL nominal tutarında aldı. İşlem sonrası şirketin sermayesindeki payı %16,17'ye ulaştı.",
+      "summary": "",
+      "source": "KAP",
+      "time": "17.11.2026 09:14",
+      "url": "https://www.getmidas.com/kap-haberleri/",
+      "within72h": true,
+      "rawDate": "2026-11-17T09:14:14.119983+00:00"
+    },
     {
       "title": "4 Saat Önce ICUGS, EA İnşaat ile 2017'den süren uyuşmazlığı sulh ile kapattı. Toplam 72,88 milyon TL borç yapılandırıldı; 14,88 milyon TL peşin ödendi, kalan tutar TLREF faizli 3 taksitle Ağustos 2027",
       "summary": "",
@@ -487,24 +676,6 @@
       "url": "https://www.getmidas.com/kap-haberleri/",
       "within72h": true,
       "rawDate": "2026-11-14T14:58:21.185741+00:00"
-    },
-    {
-      "title": "10 Saat Önce Atakey Patates, 13 Kasım 2026'da ortalama 39,38 TL fiyattan 50.000 TL nominal değerli payı geri aldı. Geri alınan payların toplam nominal değeri 1,84 milyon TL'ye, sermayeye oranı ise %1,",
-      "summary": "",
-      "source": "KAP",
-      "time": "14.11.2026 08:06",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-11-14T08:06:06.218354+00:00"
-    },
-    {
-      "title": "4 Saat Önce Atakey Patates, 13 Kasım 2026'da ortalama 39,38 TL fiyattan 50.000 TL nominal değerli payı geri aldı. Geri alınan payların toplam nominal değeri 1,84 milyon TL'ye, sermayeye oranı ise %1,3",
-      "summary": "",
-      "source": "KAP",
-      "time": "14.11.2026 01:49",
-      "url": "https://www.getmidas.com/kap-haberleri/",
-      "within72h": true,
-      "rawDate": "2026-11-14T01:49:46.700644+00:00"
     }
   ]
 }
